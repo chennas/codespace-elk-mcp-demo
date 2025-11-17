@@ -11,3 +11,650 @@
 {"timestamp": "2025-11-17T19:12:41.255595", "level": "INFO", "message": "User samnalla created successfully"}
 {"timestamp": "2025-11-17T19:12:52.579851", "level": "INFO", "message": "User samantha created successfully"}
 {"timestamp": "2025-11-17T19:13:04.265803", "level": "INFO", "message": "User anupchandra created successfully"}
+{"timestamp": "2025-11-17T21:55:46.167294", "level": "WARN", "message": "High memory usage detected: 85%"}
+{"timestamp": "2025-11-17T21:58:01.177358", "level": "ERROR", "message": "500 Internal Server Error: Unexpected application crash"}
+{"timestamp": "2025-11-17T22:00:04.181879", "level": "WARN", "message": "High memory usage detected: 85%"}
+{"timestamp": "2025-11-17T22:02:46.186291", "level": "ERROR", "message": "DatabaseTimeoutError: Query timed out after 30 seconds"}
+{"timestamp": "2025-11-17T22:05:02.189784", "level": "WARN", "message": "Cache miss for key: session_alice@example.com"}
+{"timestamp": "2025-11-17T22:07:37.193361", "level": "WARN", "message": "Slow query detected for user diana@example.com"}
+{"timestamp": "2025-11-17T22:10:18.198757", "level": "WARN", "message": "Cache miss for key: session_ivy@example.com"}
+{"timestamp": "2025-11-17T22:12:38.202938", "level": "INFO", "message": "Cron job 'cleanup_temp_files' executed successfully"}
+{"timestamp": "2025-11-17T22:15:24.206637", "level": "INFO", "message": "User alice@example.com created successfully"}
+{"timestamp": "2025-11-17T22:17:44.210122", "level": "WARN", "message": "High memory usage detected: 85%"}
+{"timestamp": "2025-11-17T22:20:28.213584", "level": "ERROR", "message": "500 Internal Server Error: Unexpected application crash"}
+{"timestamp": "2025-11-17T22:23:09.218789", "level": "ERROR", "message": "BadRequest: Received malformed payload from bob@example.com"}
+{"timestamp": "2025-11-17T22:25:46.222189", "level": "ERROR", "message": "AuthTokenExpired: Token expired for user charlie@example.com"}
+{"timestamp": "2025-11-17T22:28:07.225681", "level": "ERROR", "message": "AuthTokenExpired: Token expired for user alice@example.com"}
+{"timestamp": "2025-11-17T22:30:41.229335", "level": "WARN", "message": "Cache miss for key: session_bob@example.com"}
+{"timestamp": "2025-11-17T22:33:36.233835", "level": "WARN", "message": "Cache miss for key: session_diana@example.com"}
+{"timestamp": "2025-11-17T22:35:57.238250", "level": "INFO", "message": "User harry@example.com updated profile"}
+{"timestamp": "2025-11-17T22:38:16.241745", "level": "WARN", "message": "Cache miss for key: session_harry@example.com"}
+{"timestamp": "2025-11-17T22:40:56.245296", "level": "WARN", "message": "High memory usage detected: 85%"}
+{"timestamp": "2025-11-17T22:43:30.248902", "level": "INFO", "message": "Background worker completed job ID 7168"}
+{"timestamp": "2025-11-17T22:45:56.252553", "level": "WARN", "message": "Retrying connection to database..."}
+{"timestamp": "2025-11-17T22:48:40.256123", "level": "ERROR", "message": "NullPointerException: Attempted to access null reference"}
+{"timestamp": "2025-11-17T22:50:43.259797", "level": "ERROR", "message": "AuthTokenExpired: Token expired for user diana@example.com"}
+{"timestamp": "2025-11-17T22:53:22.263208", "level": "WARN", "message": "High memory usage detected: 85%"}
+{"timestamp": "2025-11-17T22:53:49.777065", "level": "ERROR", "message": "Unhandled exception in user-service: IndexOutOfBoundsException"}
+{"timestamp": "2025-11-17T22:53:53.143646", "level": "INFO", "message": "Service notification-service heartbeat OK"}
+{"timestamp": "2025-11-17T22:57:39.775859", "level": "ERROR", "message": "User john.doe@example.com failed login"}
+{"timestamp": "2025-11-17T23:00:42.064125", "level": "WARN", "message": "Slow query detected: INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed') took 525ms"}
+{"timestamp": "2025-11-17T23:00:42.064918", "level": "INFO", "message": "75.56.109.80 - - [17/Nov/2025:23:00:42 ] \"POST /api/v1/users HTTP/1.1\" 302 4024 \"-\" \"curl/7.x\" 280ms"}
+{"timestamp": "2025-11-17T23:00:42.162484", "level": "INFO", "message": "Cache miss for key cache_947"}
+{"timestamp": "2025-11-17T23:00:42.265565", "level": "INFO", "message": "28.189.113.196 - - [17/Nov/2025:23:00:42 ] \"GET /metrics HTTP/1.1\" 302 2600 \"-\" \"curl/7.x\" 177ms"}
+{"timestamp": "2025-11-17T23:00:42.426079", "level": "INFO", "message": "196.210.33.228 - - [17/Nov/2025:23:00:42 ] \"PATCH /api/v1/auth/login HTTP/1.1\" 302 3814 \"-\" \"curl/7.x\" 59ms"}
+{"timestamp": "2025-11-17T23:00:42.643383", "level": "INFO", "message": "146.109.132.195 - - [17/Nov/2025:23:00:42 ] \"DELETE /api/v1/orders HTTP/1.1\" 302 381 \"-\" \"curl/7.x\" 446ms"}
+{"timestamp": "2025-11-17T23:00:43.029281", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='ivy@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:00:43.273628", "level": "INFO", "message": "199.107.199.96 - - [17/Nov/2025:23:00:43 ] \"PUT /metrics HTTP/1.1\" 502 3552 \"-\" \"curl/7.x\" 126ms"}
+{"timestamp": "2025-11-17T23:00:43.654119", "level": "INFO", "message": "Feature flag evaluation: new-checkout -> OFF for user george@example.com"}
+{"timestamp": "2025-11-17T23:00:43.803762", "level": "INFO", "message": "Back-off restarting failed container in pod auth-service-pod-4180"}
+{"timestamp": "2025-11-17T23:00:44.051239", "level": "ERROR", "message": "500 Internal Server Error in auth-service when calling /process"}
+{"timestamp": "2025-11-17T23:00:44.090551", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='john.doe@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:00:44.540776", "level": "ERROR", "message": "500 Internal Server Error in order-service when calling /process"}
+{"timestamp": "2025-11-17T23:00:44.649894", "level": "INFO", "message": "Produced message to user-events partition 10 offset 779368"}
+{"timestamp": "2025-11-17T23:00:44.716170", "level": "INFO", "message": "153.36.175.228 - - [17/Nov/2025:23:00:44 ] \"POST /api/v1/payments HTTP/1.1\" 404 714 \"-\" \"curl/7.x\" 115ms"}
+{"timestamp": "2025-11-17T23:00:45.076077", "level": "INFO", "message": "119.47.109.168 - - [17/Nov/2025:23:00:45 ] \"PATCH /api/v1/payments HTTP/1.1\" 500 1170 \"-\" \"curl/7.x\" 71ms"}
+{"timestamp": "2025-11-17T23:00:45.305214", "level": "INFO", "message": "Service gateway-api heartbeat OK"}
+{"timestamp": "2025-11-17T23:00:45.671225", "level": "INFO", "message": "CI job 8726 - stage checkout - FAILURE"}
+{"timestamp": "2025-11-17T23:00:46.088620", "level": "INFO", "message": "Cache miss for key cache_203"}
+{"timestamp": "2025-11-17T23:00:50.495480", "level": "INFO", "message": "158.168.187.230 - - [17/Nov/2025:23:00:50 ] \"PATCH /api/v1/auth/login HTTP/1.1\" 204 447 \"-\" \"curl/7.x\" 128ms"}
+{"timestamp": "2025-11-17T23:00:55.914188", "level": "INFO", "message": "196.36.141.226 - - [17/Nov/2025:23:00:55 ] \"PATCH /api/v1/users HTTP/1.1\" 401 3763 \"-\" \"curl/7.x\" 251ms"}
+{"timestamp": "2025-11-17T23:01:02.055657", "level": "INFO", "message": "Cache miss for key cart_832"}
+{"timestamp": "2025-11-17T23:01:06.255779", "level": "INFO", "message": "Feature flag 'new-checkout' evaluated to True for user frank@example.com"}
+{"timestamp": "2025-11-17T23:01:12.748336", "level": "WARN", "message": "High memory usage: 84% on order-service"}
+{"timestamp": "2025-11-17T23:01:18.789852", "level": "ERROR", "message": "User jane.doe@example.com failed login"}
+{"timestamp": "2025-11-17T23:01:23.886282", "level": "WARN", "message": "Slow query detected: UPDATE orders SET status='shipped' WHERE id=5678 took 687ms"}
+{"timestamp": "2025-11-17T23:01:32.350222", "level": "INFO", "message": "21.157.15.36 - - [17/Nov/2025:23:01:32 ] \"POST /api/v1/payments HTTP/1.1\" 200 2835 \"-\" \"curl/7.x\" 313ms"}
+{"timestamp": "2025-11-17T23:01:39.549273", "level": "INFO", "message": "Service gateway-api heartbeat OK"}
+{"timestamp": "2025-11-17T23:01:51.427370", "level": "INFO", "message": "147.255.218.222 - - [17/Nov/2025:23:01:51 ] \"POST /metrics HTTP/1.1\" 200 3213 \"-\" \"curl/7.x\" 120ms"}
+{"timestamp": "2025-11-17T23:02:00.723046", "level": "INFO", "message": "Cache miss for key cache_425"}
+{"timestamp": "2025-11-17T23:02:05.066301", "level": "INFO", "message": "146.125.102.137 - - [17/Nov/2025:23:02:05 ] \"DELETE /api/v1/auth/login HTTP/1.1\" 500 915 \"-\" \"curl/7.x\" 114ms"}
+{"timestamp": "2025-11-17T23:02:10.413295", "level": "WARN", "message": "Slow query detected: INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed') took 526ms"}
+{"timestamp": "2025-11-17T23:02:14.283232", "level": "INFO", "message": "98.153.7.2 - - [17/Nov/2025:23:02:14 ] \"DELETE /api/v1/users HTTP/1.1\" 302 3096 \"-\" \"curl/7.x\" 297ms"}
+{"timestamp": "2025-11-17T23:02:21.334669", "level": "INFO", "message": "Service reporting-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:02:32.986023", "level": "INFO", "message": "211.138.31.72 - - [17/Nov/2025:23:02:32 ] \"PUT /api/v1/payments HTTP/1.1\" 302 2675 \"-\" \"curl/7.x\" 66ms"}
+{"timestamp": "2025-11-17T23:02:38.423360", "level": "INFO", "message": "77.17.37.155 - - [17/Nov/2025:23:02:38 ] \"POST /api/v1/orders HTTP/1.1\" 302 3387 \"-\" \"curl/7.x\" 234ms"}
+{"timestamp": "2025-11-17T23:02:45.036642", "level": "INFO", "message": "178.161.214.21 - - [17/Nov/2025:23:02:45 ] \"PATCH /metrics HTTP/1.1\" 200 3682 \"-\" \"curl/7.x\" 109ms"}
+{"timestamp": "2025-11-17T23:02:48.901628", "level": "INFO", "message": "Cache miss for key cache_230"}
+{"timestamp": "2025-11-17T23:02:54.390338", "level": "WARN", "message": "Slow query detected: UPDATE orders SET status='shipped' WHERE id=5678 took 587ms"}
+{"timestamp": "2025-11-17T23:03:02.359530", "level": "INFO", "message": "Cache miss for key session_579"}
+{"timestamp": "2025-11-17T23:03:05.827885", "level": "INFO", "message": "225.221.36.155 - - [17/Nov/2025:23:03:05 ] \"PUT /api/v1/auth/login HTTP/1.1\" 200 641 \"-\" \"curl/7.x\" 75ms"}
+{"timestamp": "2025-11-17T23:03:16.737915", "level": "INFO", "message": "162.186.173.2 - - [17/Nov/2025:23:03:16 ] \"POST /api/v1/users HTTP/1.1\" 302 3453 \"-\" \"curl/7.x\" 369ms"}
+{"timestamp": "2025-11-17T23:03:19.854255", "level": "INFO", "message": "Feature flag 'new-checkout' evaluated to True for user charlie@example.com"}
+{"timestamp": "2025-11-17T23:03:31.144856", "level": "INFO", "message": "226.179.57.37 - - [17/Nov/2025:23:03:31 ] \"POST /api/v1/users HTTP/1.1\" 302 3699 \"-\" \"curl/7.x\" 352ms"}
+{"timestamp": "2025-11-17T23:03:40.119096", "level": "INFO", "message": "102.141.32.212 - - [17/Nov/2025:23:03:40 ] \"GET /api/v1/users HTTP/1.1\" 400 3448 \"-\" \"curl/7.x\" 197ms"}
+{"timestamp": "2025-11-17T23:03:44.706941", "level": "INFO", "message": "85.194.86.197 - - [17/Nov/2025:23:03:44 ] \"PUT /api/v1/orders HTTP/1.1\" 403 1721 \"-\" \"curl/7.x\" 12ms"}
+{"timestamp": "2025-11-17T23:03:54.841020", "level": "ERROR", "message": "Unhandled exception in order-service: NullPointerException"}
+{"timestamp": "2025-11-17T23:04:03.601650", "level": "INFO", "message": "Background job completed, job_id=6455"}
+{"timestamp": "2025-11-17T23:04:14.011179", "level": "INFO", "message": "37.245.197.65 - - [17/Nov/2025:23:04:14 ] \"GET /health HTTP/1.1\" 302 1292 \"-\" \"curl/7.x\" 83ms"}
+{"timestamp": "2025-11-17T23:04:24.078606", "level": "INFO", "message": "125.84.6.88 - - [17/Nov/2025:23:04:24 ] \"PATCH /api/v1/payments HTTP/1.1\" 200 3991 \"-\" \"curl/7.x\" 552ms"}
+{"timestamp": "2025-11-17T23:04:28.064615", "level": "INFO", "message": "60.19.144.36 - - [17/Nov/2025:23:04:28 ] \"PUT /api/v1/auth/login HTTP/1.1\" 302 4342 \"-\" \"curl/7.x\" 167ms"}
+{"timestamp": "2025-11-17T23:04:28.162359", "level": "INFO", "message": "233.102.23.196 - - [17/Nov/2025:23:04:28 ] \"PATCH /metrics HTTP/1.1\" 400 1366 \"-\" \"curl/7.x\" 9ms"}
+{"timestamp": "2025-11-17T23:04:28.211768", "level": "INFO", "message": "Started container payment-service-pod-9487 in namespace canary"}
+{"timestamp": "2025-11-17T23:04:28.519806", "level": "INFO", "message": "Cache miss for key session_246"}
+{"timestamp": "2025-11-17T23:04:28.907054", "level": "INFO", "message": "CI job 7640 - stage checkout - FAILURE"}
+{"timestamp": "2025-11-17T23:04:29.307235", "level": "INFO", "message": "User jane.doe@example.com created successfully"}
+{"timestamp": "2025-11-17T23:04:29.451374", "level": "INFO", "message": "Killing container container-a in pod auth-service-pod-4605 due to liveness probe failure"}
+{"timestamp": "2025-11-17T23:04:29.567434", "level": "INFO", "message": "146.112.253.112 - - [17/Nov/2025:23:04:29 ] \"DELETE /api/v1/orders HTTP/1.1\" 302 398 \"-\" \"curl/7.x\" 266ms"}
+{"timestamp": "2025-11-17T23:04:29.685988", "level": "INFO", "message": "Cache miss for key session_646"}
+{"timestamp": "2025-11-17T23:04:29.739647", "level": "INFO", "message": "173.245.249.155 - - [17/Nov/2025:23:04:29 ] \"GET /api/v1/orders HTTP/1.1\" 500 1957 \"-\" \"curl/7.x\" 230ms"}
+{"timestamp": "2025-11-17T23:04:30.051700", "level": "INFO", "message": "Service reporting-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:04:30.232461", "level": "INFO", "message": "108.80.7.242 - - [17/Nov/2025:23:04:30 ] \"PUT /api/v1/payments HTTP/1.1\" 200 3904 \"-\" \"curl/7.x\" 82ms"}
+{"timestamp": "2025-11-17T23:04:30.266467", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:04:30.459599", "level": "INFO", "message": "Cache miss for key cart_281"}
+{"timestamp": "2025-11-17T23:04:30.663814", "level": "INFO", "message": "Cache miss for key cache_775"}
+{"timestamp": "2025-11-17T23:04:30.750722", "level": "INFO", "message": "84.130.223.88 - - [17/Nov/2025:23:04:30 ] \"DELETE /health HTTP/1.1\" 200 296 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:04:30.969063", "level": "INFO", "message": "Cache miss for key cache_951"}
+{"timestamp": "2025-11-17T23:04:31.310449", "level": "WARN", "message": "Slow query detected: SELECT id, name FROM users WHERE email='frank@example.com' LIMIT 1 took 607ms"}
+{"timestamp": "2025-11-17T23:04:31.350190", "level": "INFO", "message": "95.169.143.4 - - [17/Nov/2025:23:04:31 ] \"PUT /api/v1/orders HTTP/1.1\" 302 2808 \"-\" \"curl/7.x\" 411ms"}
+{"timestamp": "2025-11-17T23:04:31.448981", "level": "INFO", "message": "235.109.162.7 - - [17/Nov/2025:23:04:31 ] \"DELETE /api/v1/payments HTTP/1.1\" 404 3499 \"-\" \"curl/7.x\" 88ms"}
+{"timestamp": "2025-11-17T23:04:31.629935", "level": "INFO", "message": "UPDATE orders SET status='shipped' WHERE id=5678"}
+{"timestamp": "2025-11-17T23:04:31.910065", "level": "INFO", "message": "UPDATE orders SET status='shipped' WHERE id=5678"}
+{"timestamp": "2025-11-17T23:04:32.336019", "level": "INFO", "message": "INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed')"}
+{"timestamp": "2025-11-17T23:04:32.575176", "level": "INFO", "message": "Cache miss for key cache_812"}
+{"timestamp": "2025-11-17T23:04:32.904203", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:04:33.126711", "level": "INFO", "message": "192.92.57.222 - - [17/Nov/2025:23:04:33 ] \"POST /metrics HTTP/1.1\" 400 3711 \"-\" \"curl/7.x\" 306ms"}
+{"timestamp": "2025-11-17T23:04:33.459966", "level": "INFO", "message": "194.76.138.214 - - [17/Nov/2025:23:04:33 ] \"GET /api/v1/orders HTTP/1.1\" 301 2789 \"-\" \"curl/7.x\" 198ms"}
+{"timestamp": "2025-11-17T23:04:33.787586", "level": "INFO", "message": "235.119.223.215 - - [17/Nov/2025:23:04:33 ] \"POST /health HTTP/1.1\" 302 4071 \"-\" \"curl/7.x\" 31ms"}
+{"timestamp": "2025-11-17T23:04:34.059824", "level": "INFO", "message": "Redis connection refused on node redis-3"}
+{"timestamp": "2025-11-17T23:04:34.240882", "level": "WARN", "message": "Slow query detected: SELECT id, name FROM users WHERE email='alice@example.com' LIMIT 1 took 731ms"}
+{"timestamp": "2025-11-17T23:04:34.355278", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='jane.doe@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:04:34.705451", "level": "INFO", "message": "Cache miss for key cache_366"}
+{"timestamp": "2025-11-17T23:04:35.023504", "level": "INFO", "message": "UPDATE orders SET status='shipped' WHERE id=5678"}
+{"timestamp": "2025-11-17T23:04:35.305479", "level": "INFO", "message": "194.219.164.38 - - [17/Nov/2025:23:04:35 ] \"GET /metrics HTTP/1.1\" 200 864 \"-\" \"curl/7.x\" 138ms"}
+{"timestamp": "2025-11-17T23:04:35.751904", "level": "INFO", "message": "Started container order-service-pod-3502 in namespace monitoring"}
+{"timestamp": "2025-11-17T23:04:36.052582", "level": "INFO", "message": "Cache miss for key cart_156"}
+{"timestamp": "2025-11-17T23:04:36.197179", "level": "INFO", "message": "206.185.204.202 - - [17/Nov/2025:23:04:36 ] \"POST /health HTTP/1.1\" 302 2048 \"-\" \"curl/7.x\" 301ms"}
+{"timestamp": "2025-11-17T23:04:36.635579", "level": "INFO", "message": "INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed')"}
+{"timestamp": "2025-11-17T23:04:36.883368", "level": "INFO", "message": "User emily@example.com created successfully"}
+{"timestamp": "2025-11-17T23:04:37.272800", "level": "INFO", "message": "Background job completed, job_id=4447"}
+{"timestamp": "2025-11-17T23:04:39.767944", "level": "ERROR", "message": "Unhandled exception in inventory-service: IndexOutOfBoundsException"}
+{"timestamp": "2025-11-17T23:04:47.507936", "level": "INFO", "message": "72.28.46.101 - - [17/Nov/2025:23:04:47 ] \"DELETE /api/v1/payments HTTP/1.1\" 302 1374 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:04:57.107219", "level": "INFO", "message": "Cache miss for key cart_877"}
+{"timestamp": "2025-11-17T23:05:08.223908", "level": "INFO", "message": "224.161.242.142 - - [17/Nov/2025:23:05:08 ] \"POST /metrics HTTP/1.1\" 502 1145 \"-\" \"curl/7.x\" 151ms"}
+{"timestamp": "2025-11-17T23:05:16.969340", "level": "INFO", "message": "User george@example.com created successfully"}
+{"timestamp": "2025-11-17T23:05:28.233104", "level": "INFO", "message": "23.126.95.101 - - [17/Nov/2025:23:05:28 ] \"DELETE /api/v1/users HTTP/1.1\" 400 3989 \"-\" \"curl/7.x\" 161ms"}
+{"timestamp": "2025-11-17T23:05:35.135908", "level": "INFO", "message": "Cache miss for key cart_612"}
+{"timestamp": "2025-11-17T23:05:44.802436", "level": "INFO", "message": "36.238.79.214 - - [17/Nov/2025:23:05:44 ] \"DELETE /api/v1/auth/login HTTP/1.1\" 504 1420 \"-\" \"curl/7.x\" 93ms"}
+{"timestamp": "2025-11-17T23:05:53.983088", "level": "INFO", "message": "31.44.106.218 - - [17/Nov/2025:23:05:53 ] \"PUT /api/v1/orders HTTP/1.1\" 500 778 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:06:00.083615", "level": "INFO", "message": "Cache miss for key session_368"}
+{"timestamp": "2025-11-17T23:06:09.855883", "level": "INFO", "message": "49.58.0.15 - - [17/Nov/2025:23:06:09 ] \"POST /health HTTP/1.1\" 302 3423 \"-\" \"curl/7.x\" 13ms"}
+{"timestamp": "2025-11-17T23:06:19.527226", "level": "INFO", "message": "Cache miss for key cache_484"}
+{"timestamp": "2025-11-17T23:06:27.561011", "level": "INFO", "message": "User diana@example.com created successfully"}
+{"timestamp": "2025-11-17T23:06:34.813477", "level": "INFO", "message": "217.109.61.221 - - [17/Nov/2025:23:06:34 ] \"DELETE /api/v1/orders HTTP/1.1\" 401 592 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:06:38.398383", "level": "ERROR", "message": "Unhandled exception in inventory-service: IndexOutOfBoundsException"}
+{"timestamp": "2025-11-17T23:06:49.806849", "level": "INFO", "message": "Cache miss for key cart_532"}
+{"timestamp": "2025-11-17T23:07:00.799675", "level": "INFO", "message": "Background job completed, job_id=5006"}
+{"timestamp": "2025-11-17T23:07:09.967134", "level": "INFO", "message": "221.33.243.244 - - [17/Nov/2025:23:07:09 ] \"PATCH /api/v1/orders HTTP/1.1\" 204 2352 \"-\" \"curl/7.x\" 247ms"}
+{"timestamp": "2025-11-17T23:07:13.554435", "level": "INFO", "message": "25.200.226.223 - - [17/Nov/2025:23:07:13 ] \"POST /api/v1/payments HTTP/1.1\" 200 2311 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:07:20.614973", "level": "INFO", "message": "224.250.38.67 - - [17/Nov/2025:23:07:20 ] \"GET /api/v1/users HTTP/1.1\" 504 1112 \"-\" \"curl/7.x\" 5148ms"}
+{"timestamp": "2025-11-17T23:07:24.314596", "level": "INFO", "message": "88.240.144.129 - - [17/Nov/2025:23:07:24 ] \"DELETE /api/v1/orders HTTP/1.1\" 302 1260 \"-\" \"curl/7.x\" 71ms"}
+{"timestamp": "2025-11-17T23:07:31.715161", "level": "INFO", "message": "User bob@example.com created successfully"}
+{"timestamp": "2025-11-17T23:07:40.171227", "level": "INFO", "message": "107.217.221.111 - - [17/Nov/2025:23:07:40 ] \"PUT /api/v1/orders HTTP/1.1\" 504 2586 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:07:43.440631", "level": "ERROR", "message": "DatabaseTimeoutError in payment-service: query took 1945ms"}
+{"timestamp": "2025-11-17T23:07:47.065971", "level": "INFO", "message": "Background job completed, job_id=9007"}
+{"timestamp": "2025-11-17T23:07:47.414791", "level": "INFO", "message": "Background job completed, job_id=4162"}
+{"timestamp": "2025-11-17T23:07:47.768858", "level": "INFO", "message": "Cache miss for key cache_302"}
+{"timestamp": "2025-11-17T23:07:47.815358", "level": "INFO", "message": "50.4.4.13 - - [17/Nov/2025:23:07:47 ] \"DELETE /api/v1/payments HTTP/1.1\" 302 1133 \"-\" \"curl/7.x\" 168ms"}
+{"timestamp": "2025-11-17T23:07:47.897747", "level": "INFO", "message": "UPDATE orders SET status='shipped' WHERE id=5678"}
+{"timestamp": "2025-11-17T23:07:48.221947", "level": "INFO", "message": "User charlie@example.com created successfully"}
+{"timestamp": "2025-11-17T23:07:48.558727", "level": "INFO", "message": "Feature flag evaluation: new-checkout -> OFF for user jane.doe@example.com"}
+{"timestamp": "2025-11-17T23:07:48.866357", "level": "INFO", "message": "Back-off restarting failed container in pod reporting-service-pod-8445"}
+{"timestamp": "2025-11-17T23:07:49.082903", "level": "INFO", "message": "126.130.196.67 - - [17/Nov/2025:23:07:49 ] \"POST /metrics HTTP/1.1\" 201 617 \"-\" \"curl/7.x\" 264ms"}
+{"timestamp": "2025-11-17T23:07:49.364911", "level": "INFO", "message": "Redis connection refused on node redis-1"}
+{"timestamp": "2025-11-17T23:07:49.584863", "level": "INFO", "message": "Service reporting-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:07:49.793986", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='john.doe@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:07:49.857859", "level": "INFO", "message": "Service auth-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:07:50.100877", "level": "INFO", "message": "User george@example.com created successfully"}
+{"timestamp": "2025-11-17T23:07:50.522752", "level": "INFO", "message": "Produced message to payments partition 4 offset 563839"}
+{"timestamp": "2025-11-17T23:07:50.949384", "level": "INFO", "message": "Service payment-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:07:51.235568", "level": "INFO", "message": "CI job 8979 - stage deploy - FAILURE"}
+{"timestamp": "2025-11-17T23:07:51.350261", "level": "INFO", "message": "UPDATE orders SET status='shipped' WHERE id=5678"}
+{"timestamp": "2025-11-17T23:07:51.752935", "level": "INFO", "message": "Started container container-b in pod billing-service-pod-4045"}
+{"timestamp": "2025-11-17T23:07:52.020431", "level": "WARN", "message": "High memory usage: 79% on order-service"}
+{"timestamp": "2025-11-17T23:07:52.201882", "level": "INFO", "message": "224.115.113.202 - - [17/Nov/2025:23:07:52 ] \"GET /health HTTP/1.1\" 200 4482 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:07:52.639856", "level": "INFO", "message": "User charlie@example.com created successfully"}
+{"timestamp": "2025-11-17T23:07:58.418428", "level": "INFO", "message": "177.228.54.55 - - [17/Nov/2025:23:07:58 ] \"PUT /metrics HTTP/1.1\" 302 3715 \"-\" \"curl/7.x\" 227ms"}
+{"timestamp": "2025-11-17T23:08:03.122556", "level": "INFO", "message": "40.115.11.213 - - [17/Nov/2025:23:08:03 ] \"POST /api/v1/auth/login HTTP/1.1\" 302 2031 \"-\" \"curl/7.x\" 218ms"}
+{"timestamp": "2025-11-17T23:08:13.816074", "level": "INFO", "message": "94.213.250.126 - - [17/Nov/2025:23:08:13 ] \"PUT /metrics HTTP/1.1\" 302 1095 \"-\" \"curl/7.x\" 109ms"}
+{"timestamp": "2025-11-17T23:08:20.378805", "level": "INFO", "message": "61.239.237.185 - - [17/Nov/2025:23:08:20 ] \"GET /metrics HTTP/1.1\" 201 1545 \"-\" \"curl/7.x\" 263ms"}
+{"timestamp": "2025-11-17T23:08:29.282061", "level": "INFO", "message": "Cache miss for key cache_567"}
+{"timestamp": "2025-11-17T23:08:34.047816", "level": "INFO", "message": "Cache miss for key cache_755"}
+{"timestamp": "2025-11-17T23:08:45.083688", "level": "WARN", "message": "High memory usage: 86% on notification-service"}
+{"timestamp": "2025-11-17T23:08:49.757524", "level": "INFO", "message": "Cache miss for key cart_752"}
+{"timestamp": "2025-11-17T23:08:54.818513", "level": "ERROR", "message": "User frank@example.com failed login"}
+{"timestamp": "2025-11-17T23:09:05.858050", "level": "INFO", "message": "102.230.73.168 - - [17/Nov/2025:23:09:05 ] \"DELETE /api/v1/payments HTTP/1.1\" 202 2319 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:09:15.407425", "level": "INFO", "message": "241.219.232.58 - - [17/Nov/2025:23:09:15 ] \"GET /api/v1/auth/login HTTP/1.1\" 201 3430 \"-\" \"curl/7.x\" 406ms"}
+{"timestamp": "2025-11-17T23:09:22.661821", "level": "INFO", "message": "User charlie@example.com created successfully"}
+{"timestamp": "2025-11-17T23:09:26.455976", "level": "INFO", "message": "Service reporting-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:09:29.646196", "level": "INFO", "message": "175.17.48.68 - - [17/Nov/2025:23:09:29 ] \"PATCH /health HTTP/1.1\" 201 2192 \"-\" \"curl/7.x\" 416ms"}
+{"timestamp": "2025-11-17T23:09:34.953164", "level": "WARN", "message": "High memory usage: 74% on billing-service"}
+{"timestamp": "2025-11-17T23:09:42.154303", "level": "INFO", "message": "136.250.43.107 - - [17/Nov/2025:23:09:42 ] \"GET /api/v1/users HTTP/1.1\" 302 935 \"-\" \"curl/7.x\" 341ms"}
+{"timestamp": "2025-11-17T23:09:47.571696", "level": "INFO", "message": "56.115.193.80 - - [17/Nov/2025:23:09:47 ] \"PUT /api/v1/orders HTTP/1.1\" 403 2684 \"-\" \"curl/7.x\" 222ms"}
+{"timestamp": "2025-11-17T23:09:56.298985", "level": "INFO", "message": "12.193.109.136 - - [17/Nov/2025:23:09:56 ] \"DELETE /api/v1/auth/login HTTP/1.1\" 200 584 \"-\" \"curl/7.x\" 224ms"}
+{"timestamp": "2025-11-17T23:10:06.702461", "level": "INFO", "message": "226.3.206.148 - - [17/Nov/2025:23:10:06 ] \"PATCH /api/v1/users HTTP/1.1\" 302 2911 \"-\" \"curl/7.x\" 171ms"}
+{"timestamp": "2025-11-17T23:10:12.665549", "level": "INFO", "message": "User harry@example.com created successfully"}
+{"timestamp": "2025-11-17T23:10:22.656443", "level": "INFO", "message": "155.217.30.73 - - [17/Nov/2025:23:10:22 ] \"PATCH /health HTTP/1.1\" 204 3029 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:10:30.195836", "level": "INFO", "message": "35.170.53.104 - - [17/Nov/2025:23:10:30 ] \"GET /metrics HTTP/1.1\" 302 2121 \"-\" \"curl/7.x\" 353ms"}
+{"timestamp": "2025-11-17T23:10:34.965718", "level": "WARN", "message": "High memory usage: 85% on auth-service"}
+{"timestamp": "2025-11-17T23:10:39.679039", "level": "INFO", "message": "Cache miss for key cart_426"}
+{"timestamp": "2025-11-17T23:10:44.976502", "level": "INFO", "message": "175.231.169.143 - - [17/Nov/2025:23:10:44 ] \"DELETE /health HTTP/1.1\" 202 2677 \"-\" \"curl/7.x\" 202ms"}
+{"timestamp": "2025-11-17T23:10:52.261962", "level": "INFO", "message": "90.20.203.160 - - [17/Nov/2025:23:10:52 ] \"PUT /api/v1/auth/login HTTP/1.1\" 302 3976 \"-\" \"curl/7.x\" 218ms"}
+{"timestamp": "2025-11-17T23:11:01.377684", "level": "INFO", "message": "167.42.178.224 - - [17/Nov/2025:23:11:01 ] \"POST /api/v1/payments HTTP/1.1\" 401 1835 \"-\" \"curl/7.x\" 223ms"}
+{"timestamp": "2025-11-17T23:11:05.898551", "level": "INFO", "message": "119.217.160.154 - - [17/Nov/2025:23:11:05 ] \"GET /metrics HTTP/1.1\" 404 2012 \"-\" \"curl/7.x\" 167ms"}
+{"timestamp": "2025-11-17T23:11:15.391629", "level": "INFO", "message": "51.65.172.244 - - [17/Nov/2025:23:11:15 ] \"DELETE /metrics HTTP/1.1\" 200 1494 \"-\" \"curl/7.x\" 200ms"}
+{"timestamp": "2025-11-17T23:11:25.013927", "level": "INFO", "message": "84.219.45.189 - - [17/Nov/2025:23:11:25 ] \"POST /health HTTP/1.1\" 503 515 \"-\" \"curl/7.x\" 354ms"}
+{"timestamp": "2025-11-17T23:11:30.220148", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user frank@example.com"}
+{"timestamp": "2025-11-17T23:11:38.278778", "level": "INFO", "message": "120.97.202.35 - - [17/Nov/2025:23:11:38 ] \"GET /api/v1/users HTTP/1.1\" 302 1828 \"-\" \"curl/7.x\" 291ms"}
+{"timestamp": "2025-11-17T23:11:45.494686", "level": "INFO", "message": "186.149.146.229 - - [17/Nov/2025:23:11:45 ] \"GET /health HTTP/1.1\" 302 1660 \"-\" \"curl/7.x\" 190ms"}
+{"timestamp": "2025-11-17T23:11:52.696219", "level": "INFO", "message": "User emily@example.com created successfully"}
+{"timestamp": "2025-11-17T23:12:01.677754", "level": "WARN", "message": "Retrying connection to redis cluster for key session_3139"}
+{"timestamp": "2025-11-17T23:12:12.850335", "level": "INFO", "message": "211.18.37.220 - - [17/Nov/2025:23:12:12 ] \"PUT /api/v1/payments HTTP/1.1\" 403 973 \"-\" \"curl/7.x\" 255ms"}
+{"timestamp": "2025-11-17T23:12:15.067149", "level": "INFO", "message": "Service order-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:12:15.336959", "level": "INFO", "message": "CI job 1487 - stage build - SUCCESS"}
+{"timestamp": "2025-11-17T23:12:15.509035", "level": "INFO", "message": "Started container gateway-api-pod-2237 in namespace prod"}
+{"timestamp": "2025-11-17T23:12:15.870970", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='john.doe@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:12:16.083497", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='bob@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:12:16.337541", "level": "INFO", "message": "Partition reassignment for topic payments - leaders moved"}
+{"timestamp": "2025-11-17T23:12:16.474452", "level": "INFO", "message": "INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed')"}
+{"timestamp": "2025-11-17T23:12:16.834578", "level": "INFO", "message": "INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed')"}
+{"timestamp": "2025-11-17T23:12:16.922435", "level": "INFO", "message": "81.206.249.165 - - [17/Nov/2025:23:12:16 ] \"PUT /api/v1/payments HTTP/1.1\" 400 4278 \"-\" \"curl/7.x\" 255ms"}
+{"timestamp": "2025-11-17T23:12:16.976536", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='diana@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:12:17.174184", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='emily@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:12:17.494470", "level": "INFO", "message": "233.189.163.80 - - [17/Nov/2025:23:12:17 ] \"PUT /api/v1/auth/login HTTP/1.1\" 200 236 \"-\" \"curl/7.x\" 157ms"}
+{"timestamp": "2025-11-17T23:12:17.656596", "level": "INFO", "message": "Service user-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:12:18.079428", "level": "INFO", "message": "196.234.249.172 - - [17/Nov/2025:23:12:18 ] \"DELETE /api/v1/orders HTTP/1.1\" 302 1843 \"-\" \"curl/7.x\" 192ms"}
+{"timestamp": "2025-11-17T23:12:18.114583", "level": "INFO", "message": "228.181.31.206 - - [17/Nov/2025:23:12:18 ] \"PATCH /api/v1/payments HTTP/1.1\" 409 2288 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:12:18.357779", "level": "INFO", "message": "104.33.24.181 - - [17/Nov/2025:23:12:18 ] \"PATCH /metrics HTTP/1.1\" 409 1791 \"-\" \"curl/7.x\" 97ms"}
+{"timestamp": "2025-11-17T23:12:18.578429", "level": "INFO", "message": "Background job completed, job_id=9275"}
+{"timestamp": "2025-11-17T23:12:19.018621", "level": "WARN", "message": "Retrying connection to redis cluster for key session_9384"}
+{"timestamp": "2025-11-17T23:12:19.217151", "level": "INFO", "message": "Produced message to audit-log partition 9 offset 456866"}
+{"timestamp": "2025-11-17T23:12:19.405806", "level": "INFO", "message": "176.47.210.252 - - [17/Nov/2025:23:12:19 ] \"PUT /api/v1/auth/login HTTP/1.1\" 409 941 \"-\" \"curl/7.x\" 228ms"}
+{"timestamp": "2025-11-17T23:12:23.986241", "level": "INFO", "message": "178.46.50.30 - - [17/Nov/2025:23:12:23 ] \"POST /api/v1/payments HTTP/1.1\" 201 1644 \"-\" \"curl/7.x\" 150ms"}
+{"timestamp": "2025-11-17T23:12:27.091127", "level": "INFO", "message": "Cache miss for key cart_681"}
+{"timestamp": "2025-11-17T23:12:32.282617", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user frank@example.com"}
+{"timestamp": "2025-11-17T23:12:44.126872", "level": "INFO", "message": "158.246.22.231 - - [17/Nov/2025:23:12:44 ] \"POST /api/v1/orders HTTP/1.1\" 404 2222 \"-\" \"curl/7.x\" 158ms"}
+{"timestamp": "2025-11-17T23:12:53.345722", "level": "WARN", "message": "Slow query detected: SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100 took 607ms"}
+{"timestamp": "2025-11-17T23:13:03.201145", "level": "INFO", "message": "59.74.54.202 - - [17/Nov/2025:23:13:03 ] \"PATCH /api/v1/orders HTTP/1.1\" 401 252 \"-\" \"curl/7.x\" 197ms"}
+{"timestamp": "2025-11-17T23:13:13.774976", "level": "ERROR", "message": "DatabaseTimeoutError in auth-service: query took 1906ms"}
+{"timestamp": "2025-11-17T23:13:19.304065", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user frank@example.com"}
+{"timestamp": "2025-11-17T23:13:24.263246", "level": "INFO", "message": "100.175.198.19 - - [17/Nov/2025:23:13:24 ] \"DELETE /api/v1/auth/login HTTP/1.1\" 504 171 \"-\" \"curl/7.x\" 325ms"}
+{"timestamp": "2025-11-17T23:13:32.615540", "level": "INFO", "message": "79.74.79.215 - - [17/Nov/2025:23:13:32 ] \"DELETE /api/v1/users HTTP/1.1\" 401 4336 \"-\" \"curl/7.x\" 374ms"}
+{"timestamp": "2025-11-17T23:13:42.939579", "level": "INFO", "message": "Cache miss for key cart_544"}
+{"timestamp": "2025-11-17T23:13:52.421048", "level": "INFO", "message": "Cache miss for key cart_921"}
+{"timestamp": "2025-11-17T23:13:57.142984", "level": "INFO", "message": "45.82.226.16 - - [17/Nov/2025:23:13:57 ] \"PATCH /api/v1/orders HTTP/1.1\" 200 127 \"-\" \"curl/7.x\" 91ms"}
+{"timestamp": "2025-11-17T23:14:08.065196", "level": "INFO", "message": "58.229.130.160 - - [17/Nov/2025:23:14:08 ] \"POST /api/v1/users HTTP/1.1\" 302 2893 \"-\" \"curl/7.x\" 9ms"}
+{"timestamp": "2025-11-17T23:14:11.603130", "level": "INFO", "message": "65.63.105.182 - - [17/Nov/2025:23:14:11 ] \"PUT /api/v1/orders HTTP/1.1\" 201 2524 \"-\" \"curl/7.x\" 331ms"}
+{"timestamp": "2025-11-17T23:14:22.729846", "level": "INFO", "message": "Service reporting-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:14:34.008245", "level": "INFO", "message": "244.71.24.80 - - [17/Nov/2025:23:14:34 ] \"POST /api/v1/payments HTTP/1.1\" 302 2705 \"-\" \"curl/7.x\" 309ms"}
+{"timestamp": "2025-11-17T23:14:42.147537", "level": "INFO", "message": "230.59.116.221 - - [17/Nov/2025:23:14:42 ] \"POST /metrics HTTP/1.1\" 302 3704 \"-\" \"curl/7.x\" 86ms"}
+{"timestamp": "2025-11-17T23:14:48.284566", "level": "WARN", "message": "High memory usage: 81% on order-service"}
+{"timestamp": "2025-11-17T23:14:54.014190", "level": "WARN", "message": "Retrying connection to redis cluster for key session_2961"}
+{"timestamp": "2025-11-17T23:15:01.378542", "level": "ERROR", "message": "User ivy@example.com failed login"}
+{"timestamp": "2025-11-17T23:15:10.967892", "level": "WARN", "message": "Retrying connection to redis cluster for key session_7735"}
+{"timestamp": "2025-11-17T23:15:21.440526", "level": "INFO", "message": "Cache miss for key session_581"}
+{"timestamp": "2025-11-17T23:15:26.580477", "level": "INFO", "message": "Cache miss for key cart_615"}
+{"timestamp": "2025-11-17T23:15:37.847381", "level": "INFO", "message": "142.234.241.52 - - [17/Nov/2025:23:15:37 ] \"DELETE /api/v1/orders HTTP/1.1\" 302 2079 \"-\" \"curl/7.x\" 106ms"}
+{"timestamp": "2025-11-17T23:15:38.068283", "level": "INFO", "message": "134.130.14.58 - - [17/Nov/2025:23:15:38 ] \"PATCH /api/v1/auth/login HTTP/1.1\" 302 4223 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:15:38.394305", "level": "INFO", "message": "149.243.17.94 - - [17/Nov/2025:23:15:38 ] \"GET /health HTTP/1.1\" 302 2776 \"-\" \"curl/7.x\" 133ms"}
+{"timestamp": "2025-11-17T23:15:38.575391", "level": "INFO", "message": "Cache miss for key session_512"}
+{"timestamp": "2025-11-17T23:15:38.803473", "level": "ERROR", "message": "Unhandled exception in auth-service: ValueError"}
+{"timestamp": "2025-11-17T23:15:39.196005", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='frank@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:15:39.468703", "level": "INFO", "message": "17.188.35.189 - - [17/Nov/2025:23:15:39 ] \"GET /api/v1/auth/login HTTP/1.1\" 200 2797 \"-\" \"curl/7.x\" 34ms"}
+{"timestamp": "2025-11-17T23:15:39.702678", "level": "INFO", "message": "38.12.189.193 - - [17/Nov/2025:23:15:39 ] \"GET /api/v1/auth/login HTTP/1.1\" 404 4039 \"-\" \"curl/7.x\" 361ms"}
+{"timestamp": "2025-11-17T23:15:39.812813", "level": "INFO", "message": "99.121.233.44 - - [17/Nov/2025:23:15:39 ] \"POST /api/v1/orders HTTP/1.1\" 302 4402 \"-\" \"curl/7.x\" 367ms"}
+{"timestamp": "2025-11-17T23:15:40.111866", "level": "INFO", "message": "162.235.90.157 - - [17/Nov/2025:23:15:40 ] \"PATCH /api/v1/payments HTTP/1.1\" 204 2538 \"-\" \"curl/7.x\" 333ms"}
+{"timestamp": "2025-11-17T23:15:40.498790", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:15:40.938068", "level": "INFO", "message": "Cache miss for key session_130"}
+{"timestamp": "2025-11-17T23:15:41.391385", "level": "WARN", "message": "Retrying connection to redis cluster for key session_3202"}
+{"timestamp": "2025-11-17T23:15:41.662938", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='ivy@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:15:41.807960", "level": "ERROR", "message": "500 Internal Server Error in notification-service when calling /process"}
+{"timestamp": "2025-11-17T23:15:41.991551", "level": "INFO", "message": "UPDATE orders SET status='shipped' WHERE id=5678"}
+{"timestamp": "2025-11-17T23:15:42.257851", "level": "INFO", "message": "Produced message to payments partition 4 offset 858149"}
+{"timestamp": "2025-11-17T23:15:42.567466", "level": "INFO", "message": "217.131.195.236 - - [17/Nov/2025:23:15:42 ] \"GET /api/v1/orders HTTP/1.1\" 400 671 \"-\" \"curl/7.x\" 43ms"}
+{"timestamp": "2025-11-17T23:15:42.919537", "level": "INFO", "message": "Cache miss for key cache_449"}
+{"timestamp": "2025-11-17T23:15:43.277624", "level": "INFO", "message": "User diana@example.com created successfully"}
+{"timestamp": "2025-11-17T23:15:43.370502", "level": "ERROR", "message": "DatabaseTimeoutError in payment-service: query took 1995ms"}
+{"timestamp": "2025-11-17T23:15:43.668027", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='bob@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:15:44.014168", "level": "INFO", "message": "Produced message to payments partition 2 offset 901861"}
+{"timestamp": "2025-11-17T23:15:44.178879", "level": "INFO", "message": "Service auth-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:15:44.429013", "level": "INFO", "message": "132.66.123.105 - - [17/Nov/2025:23:15:44 ] \"PATCH /api/v1/payments HTTP/1.1\" 504 161 \"-\" \"curl/7.x\" 373ms"}
+{"timestamp": "2025-11-17T23:15:44.732907", "level": "INFO", "message": "67.186.86.182 - - [17/Nov/2025:23:15:44 ] \"PATCH /health HTTP/1.1\" 401 3961 \"-\" \"curl/7.x\" 428ms"}
+{"timestamp": "2025-11-17T23:15:44.962085", "level": "INFO", "message": "OOMKilled: Pod gateway-api-pod-2715 in namespace prod was killed due to memory"}
+{"timestamp": "2025-11-17T23:15:45.267000", "level": "INFO", "message": "64.174.217.65 - - [17/Nov/2025:23:15:45 ] \"PATCH /metrics HTTP/1.1\" 302 2816 \"-\" \"curl/7.x\" 139ms"}
+{"timestamp": "2025-11-17T23:15:45.677172", "level": "WARN", "message": "Slow query detected: SELECT id, name FROM users WHERE email='jane.doe@example.com' LIMIT 1 took 560ms"}
+{"timestamp": "2025-11-17T23:15:46.054670", "level": "INFO", "message": "Killing container container-b in pod inventory-service-pod-9053 due to liveness probe failure"}
+{"timestamp": "2025-11-17T23:15:46.346685", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='ivy@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:15:48.409060", "level": "INFO", "message": "80.145.235.239 - - [17/Nov/2025:23:15:48 ] \"PUT /api/v1/payments HTTP/1.1\" 500 3488 \"-\" \"curl/7.x\" 73ms"}
+{"timestamp": "2025-11-17T23:15:55.521323", "level": "INFO", "message": "217.254.239.196 - - [17/Nov/2025:23:15:55 ] \"GET /health HTTP/1.1\" 302 3873 \"-\" \"curl/7.x\" 139ms"}
+{"timestamp": "2025-11-17T23:16:02.141234", "level": "INFO", "message": "163.127.129.8 - - [17/Nov/2025:23:16:02 ] \"PUT /health HTTP/1.1\" 200 555 \"-\" \"curl/7.x\" 107ms"}
+{"timestamp": "2025-11-17T23:16:08.755151", "level": "INFO", "message": "75.162.174.108 - - [17/Nov/2025:23:16:08 ] \"DELETE /api/v1/payments HTTP/1.1\" 302 499 \"-\" \"curl/7.x\" 192ms"}
+{"timestamp": "2025-11-17T23:16:20.475484", "level": "INFO", "message": "62.27.207.127 - - [17/Nov/2025:23:16:20 ] \"GET /health HTTP/1.1\" 302 2776 \"-\" \"curl/7.x\" 428ms"}
+{"timestamp": "2025-11-17T23:16:24.439922", "level": "ERROR", "message": "Unhandled exception in order-service: NullPointerException"}
+{"timestamp": "2025-11-17T23:16:29.780244", "level": "INFO", "message": "Cache miss for key cart_301"}
+{"timestamp": "2025-11-17T23:16:39.058874", "level": "INFO", "message": "203.40.161.169 - - [17/Nov/2025:23:16:39 ] \"PUT /api/v1/orders HTTP/1.1\" 302 3588 \"-\" \"curl/7.x\" 20ms"}
+{"timestamp": "2025-11-17T23:16:48.994844", "level": "INFO", "message": "46.72.64.98 - - [17/Nov/2025:23:16:48 ] \"POST /api/v1/orders HTTP/1.1\" 500 2547 \"-\" \"curl/7.x\" 26ms"}
+{"timestamp": "2025-11-17T23:16:57.133814", "level": "INFO", "message": "Cache miss for key session_483"}
+{"timestamp": "2025-11-17T23:17:05.835377", "level": "INFO", "message": "User john.doe@example.com created successfully"}
+{"timestamp": "2025-11-17T23:17:15.890040", "level": "INFO", "message": "61.18.183.241 - - [17/Nov/2025:23:17:15 ] \"PUT /api/v1/orders HTTP/1.1\" 302 4238 \"-\" \"curl/7.x\" 43ms"}
+{"timestamp": "2025-11-17T23:17:26.000459", "level": "INFO", "message": "Feature flag 'discount-experiment' evaluated to True for user bob@example.com"}
+{"timestamp": "2025-11-17T23:17:34.060829", "level": "ERROR", "message": "DatabaseTimeoutError in payment-service: query took 1943ms"}
+{"timestamp": "2025-11-17T23:17:39.348074", "level": "INFO", "message": "Cache miss for key cache_890"}
+{"timestamp": "2025-11-17T23:17:43.127629", "level": "INFO", "message": "Cache miss for key session_449"}
+{"timestamp": "2025-11-17T23:17:46.459551", "level": "INFO", "message": "Cache miss for key session_318"}
+{"timestamp": "2025-11-17T23:17:57.658281", "level": "INFO", "message": "162.190.217.187 - - [17/Nov/2025:23:17:57 ] \"GET /api/v1/auth/login HTTP/1.1\" 302 1646 \"-\" \"curl/7.x\" 163ms"}
+{"timestamp": "2025-11-17T23:18:08.719270", "level": "INFO", "message": "48.191.69.150 - - [17/Nov/2025:23:18:08 ] \"GET /api/v1/payments HTTP/1.1\" 200 1462 \"-\" \"curl/7.x\" 82ms"}
+{"timestamp": "2025-11-17T23:18:14.997981", "level": "INFO", "message": "106.103.97.85 - - [17/Nov/2025:23:18:14 ] \"POST /api/v1/users HTTP/1.1\" 400 3684 \"-\" \"curl/7.x\" 213ms"}
+{"timestamp": "2025-11-17T23:18:22.367827", "level": "INFO", "message": "Cache miss for key cart_893"}
+{"timestamp": "2025-11-17T23:18:28.853749", "level": "INFO", "message": "125.20.194.13 - - [17/Nov/2025:23:18:28 ] \"PATCH /metrics HTTP/1.1\" 302 1429 \"-\" \"curl/7.x\" 242ms"}
+{"timestamp": "2025-11-17T23:18:34.413756", "level": "INFO", "message": "15.9.129.17 - - [17/Nov/2025:23:18:34 ] \"POST /health HTTP/1.1\" 302 264 \"-\" \"curl/7.x\" 64ms"}
+{"timestamp": "2025-11-17T23:18:43.323474", "level": "INFO", "message": "Cache miss for key cache_710"}
+{"timestamp": "2025-11-17T23:18:53.371068", "level": "INFO", "message": "227.64.101.48 - - [17/Nov/2025:23:18:53 ] \"POST /api/v1/users HTTP/1.1\" 302 1598 \"-\" \"curl/7.x\" 144ms"}
+{"timestamp": "2025-11-17T23:18:57.958215", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user alice@example.com"}
+{"timestamp": "2025-11-17T23:19:06.593475", "level": "WARN", "message": "Slow query detected: SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100 took 526ms"}
+{"timestamp": "2025-11-17T23:19:16.907847", "level": "INFO", "message": "189.160.151.114 - - [17/Nov/2025:23:19:16 ] \"POST /api/v1/payments HTTP/1.1\" 302 3792 \"-\" \"curl/7.x\" 33ms"}
+{"timestamp": "2025-11-17T23:19:24.562376", "level": "INFO", "message": "Background job completed, job_id=5694"}
+{"timestamp": "2025-11-17T23:19:29.394702", "level": "INFO", "message": "162.129.149.135 - - [17/Nov/2025:23:19:29 ] \"POST /api/v1/orders HTTP/1.1\" 201 3350 \"-\" \"curl/7.x\" 82ms"}
+{"timestamp": "2025-11-17T23:19:36.010298", "level": "INFO", "message": "159.67.94.128 - - [17/Nov/2025:23:19:36 ] \"PATCH /metrics HTTP/1.1\" 302 4171 \"-\" \"curl/7.x\" 372ms"}
+{"timestamp": "2025-11-17T23:19:41.561346", "level": "INFO", "message": "80.159.229.43 - - [17/Nov/2025:23:19:41 ] \"DELETE /api/v1/users HTTP/1.1\" 200 1056 \"-\" \"curl/7.x\" 210ms"}
+{"timestamp": "2025-11-17T23:19:53.485249", "level": "WARN", "message": "High memory usage: 72% on auth-service"}
+{"timestamp": "2025-11-17T23:20:03.069445", "level": "INFO", "message": "Feature flag evaluation: new-checkout -> OFF for user harry@example.com"}
+{"timestamp": "2025-11-17T23:20:03.310245", "level": "INFO", "message": "Cache miss for key cache_353"}
+{"timestamp": "2025-11-17T23:20:03.404003", "level": "INFO", "message": "22.177.104.30 - - [17/Nov/2025:23:20:03 ] \"DELETE /api/v1/orders HTTP/1.1\" 200 1280 \"-\" \"curl/7.x\" 101ms"}
+{"timestamp": "2025-11-17T23:20:03.461611", "level": "ERROR", "message": "DatabaseTimeoutError in payment-service: query took 2063ms"}
+{"timestamp": "2025-11-17T23:20:03.717760", "level": "INFO", "message": "44.237.83.143 - - [17/Nov/2025:23:20:03 ] \"GET /api/v1/auth/login HTTP/1.1\" 204 3618 \"-\" \"curl/7.x\" 269ms"}
+{"timestamp": "2025-11-17T23:20:03.803280", "level": "INFO", "message": "212.22.10.88 - - [17/Nov/2025:23:20:03 ] \"PATCH /api/v1/auth/login HTTP/1.1\" 302 3875 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:20:04.247110", "level": "INFO", "message": "125.146.125.70 - - [17/Nov/2025:23:20:04 ] \"PATCH /health HTTP/1.1\" 302 3155 \"-\" \"curl/7.x\" 43ms"}
+{"timestamp": "2025-11-17T23:20:04.532174", "level": "INFO", "message": "Feature flag 'discount-experiment' evaluated to True for user diana@example.com"}
+{"timestamp": "2025-11-17T23:20:04.670147", "level": "WARN", "message": "Slow query detected: SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100 took 605ms"}
+{"timestamp": "2025-11-17T23:20:04.807239", "level": "INFO", "message": "234.213.174.124 - - [17/Nov/2025:23:20:04 ] \"PATCH /api/v1/users HTTP/1.1\" 302 538 \"-\" \"curl/7.x\" 94ms"}
+{"timestamp": "2025-11-17T23:20:05.259346", "level": "INFO", "message": "142.66.176.172 - - [17/Nov/2025:23:20:05 ] \"POST /metrics HTTP/1.1\" 201 2851 \"-\" \"curl/7.x\" 265ms"}
+{"timestamp": "2025-11-17T23:20:05.280486", "level": "INFO", "message": "Cache miss for key cache_333"}
+{"timestamp": "2025-11-17T23:20:05.629420", "level": "INFO", "message": "31.136.158.87 - - [17/Nov/2025:23:20:05 ] \"PUT /health HTTP/1.1\" 302 283 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:20:05.704747", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='diana@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:20:05.936526", "level": "INFO", "message": "INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed')"}
+{"timestamp": "2025-11-17T23:20:06.203257", "level": "INFO", "message": "INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed')"}
+{"timestamp": "2025-11-17T23:20:06.609234", "level": "INFO", "message": "53.250.25.45 - - [17/Nov/2025:23:20:06 ] \"PUT /health HTTP/1.1\" 302 442 \"-\" \"curl/7.x\" 245ms"}
+{"timestamp": "2025-11-17T23:20:06.903165", "level": "INFO", "message": "INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed')"}
+{"timestamp": "2025-11-17T23:20:07.177934", "level": "INFO", "message": "Service user-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:20:07.279122", "level": "INFO", "message": "Killing container container-a in pod notification-service-pod-4112 due to liveness probe failure"}
+{"timestamp": "2025-11-17T23:20:07.385494", "level": "INFO", "message": "105.244.26.212 - - [17/Nov/2025:23:20:07 ] \"DELETE /api/v1/orders HTTP/1.1\" 401 1295 \"-\" \"curl/7.x\" 397ms"}
+{"timestamp": "2025-11-17T23:20:07.456448", "level": "ERROR", "message": "User john.doe@example.com failed login"}
+{"timestamp": "2025-11-17T23:20:07.599322", "level": "INFO", "message": "Cache miss for key session_256"}
+{"timestamp": "2025-11-17T23:20:07.891729", "level": "INFO", "message": "Killing container container-c in pod reporting-service-pod-3892 due to liveness probe failure"}
+{"timestamp": "2025-11-17T23:20:08.192272", "level": "INFO", "message": "UPDATE orders SET status='shipped' WHERE id=5678"}
+{"timestamp": "2025-11-17T23:20:08.553511", "level": "INFO", "message": "94.71.132.234 - - [17/Nov/2025:23:20:08 ] \"POST /metrics HTTP/1.1\" 200 4100 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:20:08.793245", "level": "INFO", "message": "92.87.175.130 - - [17/Nov/2025:23:20:08 ] \"GET /api/v1/payments HTTP/1.1\" 302 262 \"-\" \"curl/7.x\" 241ms"}
+{"timestamp": "2025-11-17T23:20:08.923543", "level": "WARN", "message": "High memory usage: 82% on reporting-service"}
+{"timestamp": "2025-11-17T23:20:09.018181", "level": "INFO", "message": "Service inventory-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:20:09.433244", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:20:14.903675", "level": "INFO", "message": "215.155.138.17 - - [17/Nov/2025:23:20:14 ] \"DELETE /api/v1/auth/login HTTP/1.1\" 302 2931 \"-\" \"curl/7.x\" 115ms"}
+{"timestamp": "2025-11-17T23:20:24.203216", "level": "INFO", "message": "123.236.154.101 - - [17/Nov/2025:23:20:24 ] \"DELETE /api/v1/users HTTP/1.1\" 504 2126 \"-\" \"curl/7.x\" 1584ms"}
+{"timestamp": "2025-11-17T23:20:35.833444", "level": "INFO", "message": "Cache miss for key session_292"}
+{"timestamp": "2025-11-17T23:20:45.461950", "level": "INFO", "message": "120.192.87.150 - - [17/Nov/2025:23:20:45 ] \"POST /health HTTP/1.1\" 202 1704 \"-\" \"curl/7.x\" 181ms"}
+{"timestamp": "2025-11-17T23:20:51.257724", "level": "INFO", "message": "91.10.200.220 - - [17/Nov/2025:23:20:51 ] \"GET /health HTTP/1.1\" 201 2669 \"-\" \"curl/7.x\" 94ms"}
+{"timestamp": "2025-11-17T23:21:00.455787", "level": "INFO", "message": "Cache miss for key cart_980"}
+{"timestamp": "2025-11-17T23:21:04.974529", "level": "WARN", "message": "Slow query detected: SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100 took 518ms"}
+{"timestamp": "2025-11-17T23:21:12.963009", "level": "INFO", "message": "216.46.125.245 - - [17/Nov/2025:23:21:12 ] \"POST /health HTTP/1.1\" 302 2202 \"-\" \"curl/7.x\" 71ms"}
+{"timestamp": "2025-11-17T23:21:19.850957", "level": "INFO", "message": "157.73.52.42 - - [17/Nov/2025:23:21:19 ] \"POST /metrics HTTP/1.1\" 302 1928 \"-\" \"curl/7.x\" 207ms"}
+{"timestamp": "2025-11-17T23:21:27.187295", "level": "INFO", "message": "Service gateway-api heartbeat OK"}
+{"timestamp": "2025-11-17T23:21:36.961952", "level": "INFO", "message": "Service notification-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:21:44.663327", "level": "INFO", "message": "215.51.20.97 - - [17/Nov/2025:23:21:44 ] \"GET /api/v1/users HTTP/1.1\" 200 1135 \"-\" \"curl/7.x\" 200ms"}
+{"timestamp": "2025-11-17T23:21:49.866894", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user alice@example.com"}
+{"timestamp": "2025-11-17T23:21:55.279735", "level": "WARN", "message": "Retrying connection to redis cluster for key session_3296"}
+{"timestamp": "2025-11-17T23:22:05.261344", "level": "INFO", "message": "Feature flag 'discount-experiment' evaluated to True for user charlie@example.com"}
+{"timestamp": "2025-11-17T23:22:15.715052", "level": "INFO", "message": "14.17.133.132 - - [17/Nov/2025:23:22:15 ] \"POST /api/v1/orders HTTP/1.1\" 302 2401 \"-\" \"curl/7.x\" 264ms"}
+{"timestamp": "2025-11-17T23:22:25.806238", "level": "INFO", "message": "Background job completed, job_id=4629"}
+{"timestamp": "2025-11-17T23:22:28.829425", "level": "INFO", "message": "185.149.51.24 - - [17/Nov/2025:23:22:28 ] \"POST /health HTTP/1.1\" 403 2356 \"-\" \"curl/7.x\" 158ms"}
+{"timestamp": "2025-11-17T23:22:39.673860", "level": "INFO", "message": "202.127.86.64 - - [17/Nov/2025:23:22:39 ] \"GET /metrics HTTP/1.1\" 200 4062 \"-\" \"curl/7.x\" 53ms"}
+{"timestamp": "2025-11-17T23:22:50.785120", "level": "WARN", "message": "Retrying connection to redis cluster for key session_8124"}
+{"timestamp": "2025-11-17T23:22:56.242195", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user jane.doe@example.com"}
+{"timestamp": "2025-11-17T23:23:02.879245", "level": "INFO", "message": "157.85.115.241 - - [17/Nov/2025:23:23:02 ] \"DELETE /health HTTP/1.1\" 401 1926 \"-\" \"curl/7.x\" 69ms"}
+{"timestamp": "2025-11-17T23:23:10.372679", "level": "INFO", "message": "User diana@example.com created successfully"}
+{"timestamp": "2025-11-17T23:23:19.146007", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user jane.doe@example.com"}
+{"timestamp": "2025-11-17T23:23:29.247196", "level": "INFO", "message": "Service notification-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:23:36.787044", "level": "INFO", "message": "Cache miss for key cart_876"}
+{"timestamp": "2025-11-17T23:23:46.742775", "level": "WARN", "message": "Slow query detected: UPDATE orders SET status='shipped' WHERE id=5678 took 590ms"}
+{"timestamp": "2025-11-17T23:23:55.063858", "level": "INFO", "message": "User george@example.com created successfully"}
+{"timestamp": "2025-11-17T23:24:05.238947", "level": "INFO", "message": "Background job completed, job_id=2008"}
+{"timestamp": "2025-11-17T23:24:12.070651", "level": "INFO", "message": "44.143.70.114 - - [17/Nov/2025:23:24:12 ] \"GET /health HTTP/1.1\" 503 4356 \"-\" \"curl/7.x\" 592ms"}
+{"timestamp": "2025-11-17T23:24:12.213302", "level": "INFO", "message": "Background job completed, job_id=8300"}
+{"timestamp": "2025-11-17T23:24:12.308267", "level": "INFO", "message": "56.217.107.86 - - [17/Nov/2025:23:24:12 ] \"GET /api/v1/auth/login HTTP/1.1\" 504 1805 \"-\" \"curl/7.x\" 284ms"}
+{"timestamp": "2025-11-17T23:24:12.753444", "level": "INFO", "message": "Produced message to user-events partition 6 offset 345848"}
+{"timestamp": "2025-11-17T23:24:12.987109", "level": "INFO", "message": "CI job 2487 - stage test - FAILURE"}
+{"timestamp": "2025-11-17T23:24:13.432590", "level": "INFO", "message": "Cache miss for key cache_673"}
+{"timestamp": "2025-11-17T23:24:13.764696", "level": "INFO", "message": "CI job 8678 - stage deploy - SUCCESS"}
+{"timestamp": "2025-11-17T23:24:14.128821", "level": "INFO", "message": "170.244.139.160 - - [17/Nov/2025:23:24:14 ] \"GET /api/v1/users HTTP/1.1\" 302 409 \"-\" \"curl/7.x\" 373ms"}
+{"timestamp": "2025-11-17T23:24:14.343794", "level": "INFO", "message": "Service payment-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:24:14.645037", "level": "INFO", "message": "Produced message to payments partition 4 offset 396784"}
+{"timestamp": "2025-11-17T23:24:15.015799", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='jane.doe@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:24:15.238790", "level": "INFO", "message": "172.155.141.164 - - [17/Nov/2025:23:24:15 ] \"PUT /metrics HTTP/1.1\" 302 1719 \"-\" \"curl/7.x\" 139ms"}
+{"timestamp": "2025-11-17T23:24:15.470759", "level": "INFO", "message": "CI job 3888 - stage test - IN_PROGRESS"}
+{"timestamp": "2025-11-17T23:24:15.908820", "level": "INFO", "message": "202.195.129.135 - - [17/Nov/2025:23:24:15 ] \"POST /api/v1/payments HTTP/1.1\" 302 823 \"-\" \"curl/7.x\" 99ms"}
+{"timestamp": "2025-11-17T23:24:15.966311", "level": "ERROR", "message": "Unhandled exception in user-service: NullPointerException"}
+{"timestamp": "2025-11-17T23:24:16.286034", "level": "INFO", "message": "Pod notification-service-pod-8696 evicted from node node-8"}
+{"timestamp": "2025-11-17T23:24:16.684124", "level": "INFO", "message": "198.128.28.125 - - [17/Nov/2025:23:24:16 ] \"PUT /api/v1/orders HTTP/1.1\" 302 1004 \"-\" \"curl/7.x\" 312ms"}
+{"timestamp": "2025-11-17T23:24:17.120857", "level": "WARN", "message": "High memory usage: 77% on user-service"}
+{"timestamp": "2025-11-17T23:24:17.439149", "level": "INFO", "message": "Feature flag 'new-checkout' evaluated to True for user george@example.com"}
+{"timestamp": "2025-11-17T23:24:17.834762", "level": "INFO", "message": "18.255.247.137 - - [17/Nov/2025:23:24:17 ] \"POST /api/v1/payments HTTP/1.1\" 400 2164 \"-\" \"curl/7.x\" 14ms"}
+{"timestamp": "2025-11-17T23:24:18.124919", "level": "WARN", "message": "Slow query detected: SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100 took 476ms"}
+{"timestamp": "2025-11-17T23:24:18.171744", "level": "INFO", "message": "109.174.226.179 - - [17/Nov/2025:23:24:18 ] \"PATCH /api/v1/users HTTP/1.1\" 302 673 \"-\" \"curl/7.x\" 112ms"}
+{"timestamp": "2025-11-17T23:24:18.554156", "level": "INFO", "message": "Produced message to user-events partition 4 offset 875924"}
+{"timestamp": "2025-11-17T23:24:18.936746", "level": "INFO", "message": "Background job completed, job_id=4094"}
+{"timestamp": "2025-11-17T23:24:19.034218", "level": "INFO", "message": "168.58.200.178 - - [17/Nov/2025:23:24:19 ] \"PUT /api/v1/payments HTTP/1.1\" 302 1562 \"-\" \"curl/7.x\" 32ms"}
+{"timestamp": "2025-11-17T23:24:19.189508", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user charlie@example.com"}
+{"timestamp": "2025-11-17T23:24:19.495107", "level": "INFO", "message": "171.212.21.150 - - [17/Nov/2025:23:24:19 ] \"PUT /api/v1/users HTTP/1.1\" 401 504 \"-\" \"curl/7.x\" 120ms"}
+{"timestamp": "2025-11-17T23:24:19.888561", "level": "INFO", "message": "Feature flag 'new-checkout' evaluated to True for user ivy@example.com"}
+{"timestamp": "2025-11-17T23:24:20.048126", "level": "INFO", "message": "INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed')"}
+{"timestamp": "2025-11-17T23:24:20.230529", "level": "INFO", "message": "UPDATE orders SET status='shipped' WHERE id=5678"}
+{"timestamp": "2025-11-17T23:24:20.614695", "level": "INFO", "message": "Service payment-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:24:20.676220", "level": "INFO", "message": "223.40.69.174 - - [17/Nov/2025:23:24:20 ] \"DELETE /api/v1/users HTTP/1.1\" 302 1467 \"-\" \"curl/7.x\" 222ms"}
+{"timestamp": "2025-11-17T23:24:20.793728", "level": "ERROR", "message": "User alice@example.com failed login"}
+{"timestamp": "2025-11-17T23:24:20.844845", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:24:20.923313", "level": "INFO", "message": "98.3.74.29 - - [17/Nov/2025:23:24:20 ] \"DELETE /metrics HTTP/1.1\" 404 1301 \"-\" \"curl/7.x\" 57ms"}
+{"timestamp": "2025-11-17T23:24:21.324211", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user frank@example.com"}
+{"timestamp": "2025-11-17T23:24:21.685425", "level": "INFO", "message": "242.30.228.143 - - [17/Nov/2025:23:24:21 ] \"POST /metrics HTTP/1.1\" 400 3843 \"-\" \"curl/7.x\" 119ms"}
+{"timestamp": "2025-11-17T23:24:21.727020", "level": "INFO", "message": "128.168.47.158 - - [17/Nov/2025:23:24:21 ] \"DELETE /api/v1/payments HTTP/1.1\" 302 3356 \"-\" \"curl/7.x\" 398ms"}
+{"timestamp": "2025-11-17T23:24:21.844108", "level": "INFO", "message": "Background job completed, job_id=8189"}
+{"timestamp": "2025-11-17T23:24:21.909641", "level": "INFO", "message": "CI job 5336 - stage deploy - IN_PROGRESS"}
+{"timestamp": "2025-11-17T23:24:22.142280", "level": "INFO", "message": "Service auth-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:24:22.335737", "level": "INFO", "message": "Service payment-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:24:22.560635", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='bob@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:24:32.496067", "level": "INFO", "message": "Cache miss for key session_123"}
+{"timestamp": "2025-11-17T23:24:44.163610", "level": "INFO", "message": "140.63.20.209 - - [17/Nov/2025:23:24:44 ] \"GET /health HTTP/1.1\" 302 1488 \"-\" \"curl/7.x\" 153ms"}
+{"timestamp": "2025-11-17T23:24:53.980110", "level": "INFO", "message": "60.120.174.111 - - [17/Nov/2025:23:24:53 ] \"GET /api/v1/payments HTTP/1.1\" 302 1554 \"-\" \"curl/7.x\" 76ms"}
+{"timestamp": "2025-11-17T23:24:57.764488", "level": "INFO", "message": "Feature flag 'discount-experiment' evaluated to True for user frank@example.com"}
+{"timestamp": "2025-11-17T23:25:07.892685", "level": "INFO", "message": "Cache miss for key cache_558"}
+{"timestamp": "2025-11-17T23:25:14.773212", "level": "ERROR", "message": "Unhandled exception in billing-service: NullPointerException"}
+{"timestamp": "2025-11-17T23:25:23.338969", "level": "INFO", "message": "Cache miss for key session_838"}
+{"timestamp": "2025-11-17T23:25:27.519480", "level": "INFO", "message": "Cache miss for key session_880"}
+{"timestamp": "2025-11-17T23:25:38.693353", "level": "INFO", "message": "19.186.158.206 - - [17/Nov/2025:23:25:38 ] \"GET /api/v1/payments HTTP/1.1\" 302 1488 \"-\" \"curl/7.x\" 10ms"}
+{"timestamp": "2025-11-17T23:25:48.111694", "level": "INFO", "message": "User emily@example.com created successfully"}
+{"timestamp": "2025-11-17T23:25:56.159209", "level": "INFO", "message": "184.43.163.162 - - [17/Nov/2025:23:25:56 ] \"GET /api/v1/auth/login HTTP/1.1\" 400 152 \"-\" \"curl/7.x\" 99ms"}
+{"timestamp": "2025-11-17T23:25:59.650339", "level": "INFO", "message": "121.9.226.119 - - [17/Nov/2025:23:25:59 ] \"POST /api/v1/orders HTTP/1.1\" 302 3349 \"-\" \"curl/7.x\" 137ms"}
+{"timestamp": "2025-11-17T23:26:10.389806", "level": "ERROR", "message": "Unhandled exception in analytics-engine: IndexOutOfBoundsException"}
+{"timestamp": "2025-11-17T23:26:14.785703", "level": "INFO", "message": "Feature flag 'discount-experiment' evaluated to True for user emily@example.com"}
+{"timestamp": "2025-11-17T23:26:20.071966", "level": "INFO", "message": "Produced message to audit-log partition 8 offset 503098"}
+{"timestamp": "2025-11-17T23:26:20.376589", "level": "INFO", "message": "Feature flag evaluation: discount-experiment -> OFF for user emily@example.com"}
+{"timestamp": "2025-11-17T23:26:20.777511", "level": "ERROR", "message": "Unhandled exception in reporting-service: IndexOutOfBoundsException"}
+{"timestamp": "2025-11-17T23:26:20.846934", "level": "INFO", "message": "Background job completed, job_id=1618"}
+{"timestamp": "2025-11-17T23:26:21.082287", "level": "INFO", "message": "Service user-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:26:21.166672", "level": "ERROR", "message": "500 Internal Server Error in gateway-api when calling /process"}
+{"timestamp": "2025-11-17T23:26:21.368896", "level": "INFO", "message": "192.132.49.198 - - [17/Nov/2025:23:26:21 ] \"PUT /metrics HTTP/1.1\" 401 259 \"-\" \"curl/7.x\" 260ms"}
+{"timestamp": "2025-11-17T23:26:21.536155", "level": "INFO", "message": "Service payment-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:26:21.953257", "level": "INFO", "message": "Started container analytics-engine-pod-2212 in namespace canary"}
+{"timestamp": "2025-11-17T23:26:22.042946", "level": "INFO", "message": "Feature flag evaluation: discount-experiment -> OFF for user frank@example.com"}
+{"timestamp": "2025-11-17T23:26:22.126129", "level": "INFO", "message": "190.150.68.213 - - [17/Nov/2025:23:26:22 ] \"GET /api/v1/orders HTTP/1.1\" 302 1437 \"-\" \"curl/7.x\" 99ms"}
+{"timestamp": "2025-11-17T23:26:22.339120", "level": "INFO", "message": "Back-off restarting failed container in pod notification-service-pod-1791"}
+{"timestamp": "2025-11-17T23:26:22.725299", "level": "INFO", "message": "OOMKilled: Pod inventory-service-pod-5556 in namespace staging was killed due to memory"}
+{"timestamp": "2025-11-17T23:26:23.058564", "level": "INFO", "message": "Feature flag evaluation: search-v2 -> OFF for user ivy@example.com"}
+{"timestamp": "2025-11-17T23:26:23.489986", "level": "ERROR", "message": "500 Internal Server Error in notification-service when calling /process"}
+{"timestamp": "2025-11-17T23:26:23.858213", "level": "INFO", "message": "Background job completed, job_id=8134"}
+{"timestamp": "2025-11-17T23:26:24.158491", "level": "WARN", "message": "Retrying connection to redis cluster for key session_4624"}
+{"timestamp": "2025-11-17T23:26:24.479652", "level": "INFO", "message": "139.159.123.22 - - [17/Nov/2025:23:26:24 ] \"DELETE /health HTTP/1.1\" 302 2939 \"-\" \"curl/7.x\" 220ms"}
+{"timestamp": "2025-11-17T23:26:24.673767", "level": "INFO", "message": "User george@example.com created successfully"}
+{"timestamp": "2025-11-17T23:26:24.817663", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='diana@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:26:25.043881", "level": "INFO", "message": "103.173.142.59 - - [17/Nov/2025:23:26:25 ] \"POST /api/v1/orders HTTP/1.1\" 302 1216 \"-\" \"curl/7.x\" 137ms"}
+{"timestamp": "2025-11-17T23:26:25.108038", "level": "INFO", "message": "Produced message to audit-log partition 2 offset 648223"}
+{"timestamp": "2025-11-17T23:26:25.412602", "level": "INFO", "message": "Partition reassignment for topic orders - leaders moved"}
+{"timestamp": "2025-11-17T23:26:25.760995", "level": "INFO", "message": "44.223.135.93 - - [17/Nov/2025:23:26:25 ] \"GET /health HTTP/1.1\" 400 539 \"-\" \"curl/7.x\" 35ms"}
+{"timestamp": "2025-11-17T23:26:26.076767", "level": "INFO", "message": "Cache miss for key cart_767"}
+{"timestamp": "2025-11-17T23:26:26.390822", "level": "INFO", "message": "CI job 2725 - stage checkout - SUCCESS"}
+{"timestamp": "2025-11-17T23:26:26.820554", "level": "WARN", "message": "Retrying connection to redis cluster for key session_3268"}
+{"timestamp": "2025-11-17T23:26:27.063129", "level": "INFO", "message": "User george@example.com created successfully"}
+{"timestamp": "2025-11-17T23:26:27.370135", "level": "INFO", "message": "77.204.19.202 - - [17/Nov/2025:23:26:27 ] \"DELETE /health HTTP/1.1\" 302 3957 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:26:27.810182", "level": "INFO", "message": "168.224.19.116 - - [17/Nov/2025:23:26:27 ] \"PATCH /health HTTP/1.1\" 302 1975 \"-\" \"curl/7.x\" 101ms"}
+{"timestamp": "2025-11-17T23:26:28.229553", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:26:28.545768", "level": "INFO", "message": "Produced message to audit-log partition 9 offset 942753"}
+{"timestamp": "2025-11-17T23:26:28.874932", "level": "INFO", "message": "144.57.33.200 - - [17/Nov/2025:23:26:28 ] \"POST /health HTTP/1.1\" 400 3521 \"-\" \"curl/7.x\" 282ms"}
+{"timestamp": "2025-11-17T23:26:28.986247", "level": "INFO", "message": "Produced message to user-events partition 2 offset 365621"}
+{"timestamp": "2025-11-17T23:26:29.240420", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:26:29.668933", "level": "INFO", "message": "Back-off restarting failed container in pod notification-service-pod-3180"}
+{"timestamp": "2025-11-17T23:26:29.878873", "level": "INFO", "message": "Started container inventory-service-pod-4448 in namespace default"}
+{"timestamp": "2025-11-17T23:26:30.330171", "level": "INFO", "message": "Produced message to audit-log partition 6 offset 645284"}
+{"timestamp": "2025-11-17T23:26:30.615106", "level": "INFO", "message": "INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed')"}
+{"timestamp": "2025-11-17T23:26:30.708163", "level": "INFO", "message": "Pod reporting-service-pod-8267 evicted from node node-3"}
+{"timestamp": "2025-11-17T23:26:31.001673", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:26:31.041457", "level": "INFO", "message": "Cache miss for key session_381"}
+{"timestamp": "2025-11-17T23:26:31.310269", "level": "INFO", "message": "Service billing-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:26:31.454897", "level": "INFO", "message": "INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed')"}
+{"timestamp": "2025-11-17T23:26:31.593505", "level": "INFO", "message": "Produced message to orders partition 1 offset 858783"}
+{"timestamp": "2025-11-17T23:26:35.214764", "level": "INFO", "message": "39.35.26.171 - - [17/Nov/2025:23:26:35 ] \"DELETE /health HTTP/1.1\" 302 1960 \"-\" \"curl/7.x\" 263ms"}
+{"timestamp": "2025-11-17T23:26:47.205253", "level": "INFO", "message": "113.220.23.27 - - [17/Nov/2025:23:26:47 ] \"PUT /api/v1/payments HTTP/1.1\" 302 3029 \"-\" \"curl/7.x\" 133ms"}
+{"timestamp": "2025-11-17T23:26:56.069005", "level": "WARN", "message": "High memory usage: 78% on inventory-service"}
+{"timestamp": "2025-11-17T23:26:59.577075", "level": "INFO", "message": "Cache miss for key cache_123"}
+{"timestamp": "2025-11-17T23:27:07.396151", "level": "INFO", "message": "Cache miss for key cart_344"}
+{"timestamp": "2025-11-17T23:27:17.928059", "level": "ERROR", "message": "Unhandled exception in auth-service: ValueError"}
+{"timestamp": "2025-11-17T23:27:22.321541", "level": "INFO", "message": "Cache miss for key cache_295"}
+{"timestamp": "2025-11-17T23:27:27.020039", "level": "INFO", "message": "Service user-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:27:31.026179", "level": "INFO", "message": "Service notification-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:27:39.940911", "level": "INFO", "message": "Service payment-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:27:44.206683", "level": "INFO", "message": "136.13.41.248 - - [17/Nov/2025:23:27:44 ] \"GET /health HTTP/1.1\" 201 1225 \"-\" \"curl/7.x\" 162ms"}
+{"timestamp": "2025-11-17T23:27:56.020623", "level": "WARN", "message": "Retrying connection to redis cluster for key session_5572"}
+{"timestamp": "2025-11-17T23:28:01.997063", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user harry@example.com"}
+{"timestamp": "2025-11-17T23:28:09.771830", "level": "INFO", "message": "Cache miss for key cart_359"}
+{"timestamp": "2025-11-17T23:28:13.339198", "level": "INFO", "message": "236.129.63.148 - - [17/Nov/2025:23:28:13 ] \"GET /api/v1/payments HTTP/1.1\" 302 2348 \"-\" \"curl/7.x\" 65ms"}
+{"timestamp": "2025-11-17T23:28:19.362924", "level": "INFO", "message": "20.180.246.182 - - [17/Nov/2025:23:28:19 ] \"PATCH /api/v1/auth/login HTTP/1.1\" 400 3933 \"-\" \"curl/7.x\" 380ms"}
+{"timestamp": "2025-11-17T23:28:22.929018", "level": "INFO", "message": "181.148.218.118 - - [17/Nov/2025:23:28:22 ] \"PUT /health HTTP/1.1\" 302 463 \"-\" \"curl/7.x\" 151ms"}
+{"timestamp": "2025-11-17T23:28:33.384176", "level": "INFO", "message": "Service user-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:28:40.519950", "level": "INFO", "message": "Redis connection refused on node redis-3"}
+{"timestamp": "2025-11-17T23:28:48.617865", "level": "WARN", "message": "Retrying connection to redis cluster for key session_3092"}
+{"timestamp": "2025-11-17T23:28:55.588979", "level": "INFO", "message": "146.10.41.105 - - [17/Nov/2025:23:28:55 ] \"PATCH /api/v1/orders HTTP/1.1\" 503 293 \"-\" \"curl/7.x\" 138ms"}
+{"timestamp": "2025-11-17T23:29:02.051175", "level": "INFO", "message": "125.116.100.18 - - [17/Nov/2025:23:29:02 ] \"GET /metrics HTTP/1.1\" 302 885 \"-\" \"curl/7.x\" 275ms"}
+{"timestamp": "2025-11-17T23:29:06.514368", "level": "INFO", "message": "218.44.122.124 - - [17/Nov/2025:23:29:06 ] \"DELETE /api/v1/orders HTTP/1.1\" 302 3022 \"-\" \"curl/7.x\" 116ms"}
+{"timestamp": "2025-11-17T23:29:11.073207", "level": "INFO", "message": "149.80.163.35 - - [17/Nov/2025:23:29:11 ] \"DELETE /api/v1/orders HTTP/1.1\" 302 2065 \"-\" \"curl/7.x\" 228ms"}
+{"timestamp": "2025-11-17T23:29:11.287377", "level": "INFO", "message": "Pod notification-service-pod-9701 evicted from node node-5"}
+{"timestamp": "2025-11-17T23:29:11.513784", "level": "INFO", "message": "77.86.203.88 - - [17/Nov/2025:23:29:11 ] \"POST /metrics HTTP/1.1\" 400 4039 \"-\" \"curl/7.x\" 223ms"}
+{"timestamp": "2025-11-17T23:29:11.830957", "level": "INFO", "message": "Service gateway-api heartbeat OK"}
+{"timestamp": "2025-11-17T23:29:11.945989", "level": "INFO", "message": "Partition reassignment for topic orders - leaders moved"}
+{"timestamp": "2025-11-17T23:29:12.366145", "level": "INFO", "message": "Partition reassignment for topic payments - leaders moved"}
+{"timestamp": "2025-11-17T23:29:12.544567", "level": "INFO", "message": "CI job 9166 - stage checkout - FAILURE"}
+{"timestamp": "2025-11-17T23:29:12.642730", "level": "WARN", "message": "Slow query detected: SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100 took 616ms"}
+{"timestamp": "2025-11-17T23:29:12.930168", "level": "ERROR", "message": "500 Internal Server Error in analytics-engine when calling /process"}
+{"timestamp": "2025-11-17T23:29:13.013268", "level": "INFO", "message": "10.212.135.50 - - [17/Nov/2025:23:29:13 ] \"DELETE /api/v1/auth/login HTTP/1.1\" 302 2340 \"-\" \"curl/7.x\" 158ms"}
+{"timestamp": "2025-11-17T23:29:13.251052", "level": "INFO", "message": "Produced message to payments partition 2 offset 778487"}
+{"timestamp": "2025-11-17T23:29:13.347289", "level": "INFO", "message": "35.211.92.224 - - [17/Nov/2025:23:29:13 ] \"PATCH /api/v1/auth/login HTTP/1.1\" 302 775 \"-\" \"curl/7.x\" 54ms"}
+{"timestamp": "2025-11-17T23:29:13.527367", "level": "INFO", "message": "136.74.255.32 - - [17/Nov/2025:23:29:13 ] \"PUT /api/v1/orders HTTP/1.1\" 200 1107 \"-\" \"curl/7.x\" 50ms"}
+{"timestamp": "2025-11-17T23:29:13.940630", "level": "INFO", "message": "UPDATE orders SET status='shipped' WHERE id=5678"}
+{"timestamp": "2025-11-17T23:29:14.251614", "level": "INFO", "message": "187.1.163.1 - - [17/Nov/2025:23:29:14 ] \"PATCH /metrics HTTP/1.1\" 302 3052 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:29:14.464646", "level": "INFO", "message": "223.42.127.127 - - [17/Nov/2025:23:29:14 ] \"DELETE /health HTTP/1.1\" 302 3673 \"-\" \"curl/7.x\" 217ms"}
+{"timestamp": "2025-11-17T23:29:14.862355", "level": "INFO", "message": "111.238.191.169 - - [17/Nov/2025:23:29:14 ] \"DELETE /api/v1/orders HTTP/1.1\" 201 3561 \"-\" \"curl/7.x\" 117ms"}
+{"timestamp": "2025-11-17T23:29:15.070867", "level": "INFO", "message": "INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed')"}
+{"timestamp": "2025-11-17T23:29:15.347119", "level": "INFO", "message": "UPDATE orders SET status='shipped' WHERE id=5678"}
+{"timestamp": "2025-11-17T23:29:15.444173", "level": "WARN", "message": "Retrying connection to redis cluster for key session_6893"}
+{"timestamp": "2025-11-17T23:29:15.581214", "level": "INFO", "message": "Service reporting-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:29:16.333605", "level": "INFO", "message": "172.79.252.166 - - [17/Nov/2025:23:29:16 ] \"DELETE /api/v1/auth/login HTTP/1.1\" 200 4149 \"-\" \"curl/7.x\" 100ms"}
+{"timestamp": "2025-11-17T23:29:20.707122", "level": "INFO", "message": "User diana@example.com created successfully"}
+{"timestamp": "2025-11-17T23:29:25.213260", "level": "INFO", "message": "Background job completed, job_id=5474"}
+{"timestamp": "2025-11-17T23:29:29.354710", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user bob@example.com"}
+{"timestamp": "2025-11-17T23:29:37.990772", "level": "INFO", "message": "Cache miss for key cache_524"}
+{"timestamp": "2025-11-17T23:29:41.689707", "level": "INFO", "message": "Feature flag 'new-checkout' evaluated to True for user harry@example.com"}
+{"timestamp": "2025-11-17T23:29:45.575457", "level": "INFO", "message": "Cache miss for key cache_349"}
+{"timestamp": "2025-11-17T23:29:53.578908", "level": "INFO", "message": "16.116.182.11 - - [17/Nov/2025:23:29:53 ] \"GET /api/v1/users HTTP/1.1\" 302 4499 \"-\" \"curl/7.x\" 125ms"}
+{"timestamp": "2025-11-17T23:29:58.715948", "level": "INFO", "message": "Cache miss for key session_831"}
+{"timestamp": "2025-11-17T23:30:10.615197", "level": "INFO", "message": "Background job completed, job_id=3045"}
+{"timestamp": "2025-11-17T23:30:15.934861", "level": "INFO", "message": "221.55.10.22 - - [17/Nov/2025:23:30:15 ] \"GET /metrics HTTP/1.1\" 201 4221 \"-\" \"curl/7.x\" 341ms"}
+{"timestamp": "2025-11-17T23:30:21.590379", "level": "INFO", "message": "175.247.118.147 - - [17/Nov/2025:23:30:21 ] \"PATCH /metrics HTTP/1.1\" 301 1191 \"-\" \"curl/7.x\" 241ms"}
+{"timestamp": "2025-11-17T23:30:30.834366", "level": "INFO", "message": "138.47.221.77 - - [17/Nov/2025:23:30:30 ] \"DELETE /health HTTP/1.1\" 500 1142 \"-\" \"curl/7.x\" 80ms"}
+{"timestamp": "2025-11-17T23:30:41.967889", "level": "INFO", "message": "32.59.51.50 - - [17/Nov/2025:23:30:41 ] \"POST /api/v1/orders HTTP/1.1\" 200 3073 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:30:47.082256", "level": "INFO", "message": "186.183.140.9 - - [17/Nov/2025:23:30:47 ] \"PUT /api/v1/orders HTTP/1.1\" 302 2560 \"-\" \"curl/7.x\" 368ms"}
+{"timestamp": "2025-11-17T23:30:55.050601", "level": "WARN", "message": "High memory usage: 77% on user-service"}
+{"timestamp": "2025-11-17T23:31:02.636842", "level": "INFO", "message": "35.55.99.17 - - [17/Nov/2025:23:31:02 ] \"GET /api/v1/payments HTTP/1.1\" 302 3984 \"-\" \"curl/7.x\" 143ms"}
+{"timestamp": "2025-11-17T23:31:11.655030", "level": "INFO", "message": "95.72.87.164 - - [17/Nov/2025:23:31:11 ] \"DELETE /api/v1/orders HTTP/1.1\" 401 3525 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:31:19.993609", "level": "INFO", "message": "Feature flag 'discount-experiment' evaluated to True for user charlie@example.com"}
+{"timestamp": "2025-11-17T23:31:31.430509", "level": "INFO", "message": "140.87.133.186 - - [17/Nov/2025:23:31:31 ] \"POST /metrics HTTP/1.1\" 301 1151 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:31:34.755454", "level": "INFO", "message": "216.198.9.56 - - [17/Nov/2025:23:31:34 ] \"PUT /metrics HTTP/1.1\" 302 256 \"-\" \"curl/7.x\" 250ms"}
+{"timestamp": "2025-11-17T23:31:42.519898", "level": "INFO", "message": "143.121.163.86 - - [17/Nov/2025:23:31:42 ] \"DELETE /api/v1/users HTTP/1.1\" 302 3754 \"-\" \"curl/7.x\" 212ms"}
+{"timestamp": "2025-11-17T23:31:49.754002", "level": "INFO", "message": "Background job completed, job_id=7933"}
+{"timestamp": "2025-11-17T23:32:00.141820", "level": "INFO", "message": "205.214.15.84 - - [17/Nov/2025:23:32:00 ] \"POST /api/v1/payments HTTP/1.1\" 302 2597 \"-\" \"curl/7.x\" 34ms"}
+{"timestamp": "2025-11-17T23:32:03.995438", "level": "INFO", "message": "User bob@example.com created successfully"}
+{"timestamp": "2025-11-17T23:32:11.913927", "level": "INFO", "message": "Feature flag 'discount-experiment' evaluated to True for user john.doe@example.com"}
+{"timestamp": "2025-11-17T23:32:15.912070", "level": "INFO", "message": "50.123.187.154 - - [17/Nov/2025:23:32:15 ] \"DELETE /health HTTP/1.1\" 500 3325 \"-\" \"curl/7.x\" 103ms"}
+{"timestamp": "2025-11-17T23:32:19.682811", "level": "INFO", "message": "168.129.236.113 - - [17/Nov/2025:23:32:19 ] \"DELETE /api/v1/orders HTTP/1.1\" 409 1027 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:32:26.965324", "level": "INFO", "message": "238.28.207.206 - - [17/Nov/2025:23:32:26 ] \"PUT /api/v1/auth/login HTTP/1.1\" 403 4034 \"-\" \"curl/7.x\" 155ms"}
+{"timestamp": "2025-11-17T23:32:35.235550", "level": "INFO", "message": "Background job completed, job_id=1685"}
+{"timestamp": "2025-11-17T23:32:44.822634", "level": "ERROR", "message": "DatabaseTimeoutError in auth-service: query took 2052ms"}
+{"timestamp": "2025-11-17T23:32:50.054339", "level": "INFO", "message": "Service payment-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:32:56.825517", "level": "WARN", "message": "High memory usage: 85% on inventory-service"}
+{"timestamp": "2025-11-17T23:33:05.249983", "level": "INFO", "message": "Feature flag 'new-checkout' evaluated to True for user jane.doe@example.com"}
+{"timestamp": "2025-11-17T23:33:15.324148", "level": "INFO", "message": "133.218.154.243 - - [17/Nov/2025:23:33:15 ] \"PATCH /api/v1/users HTTP/1.1\" 202 4169 \"-\" \"curl/7.x\" 38ms"}
+{"timestamp": "2025-11-17T23:33:26.344211", "level": "INFO", "message": "41.192.224.236 - - [17/Nov/2025:23:33:26 ] \"POST /api/v1/payments HTTP/1.1\" 302 3494 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:33:31.513759", "level": "INFO", "message": "194.247.11.58 - - [17/Nov/2025:23:33:31 ] \"DELETE /api/v1/payments HTTP/1.1\" 400 935 \"-\" \"curl/7.x\" 136ms"}
+{"timestamp": "2025-11-17T23:33:36.509477", "level": "WARN", "message": "High memory usage: 86% on payment-service"}
+{"timestamp": "2025-11-17T23:33:39.074594", "level": "WARN", "message": "Slow query detected: SELECT id, name FROM users WHERE email='harry@example.com' LIMIT 1 took 553ms"}
+{"timestamp": "2025-11-17T23:33:39.414946", "level": "INFO", "message": "Feature flag evaluation: new-checkout -> OFF for user harry@example.com"}
+{"timestamp": "2025-11-17T23:33:39.788560", "level": "INFO", "message": "186.99.174.130 - - [17/Nov/2025:23:33:39 ] \"DELETE /api/v1/payments HTTP/1.1\" 200 1392 \"-\" \"curl/7.x\" 319ms"}
+{"timestamp": "2025-11-17T23:33:40.015005", "level": "INFO", "message": "71.145.16.250 - - [17/Nov/2025:23:33:40 ] \"PUT /metrics HTTP/1.1\" 302 1666 \"-\" \"curl/7.x\" 203ms"}
+{"timestamp": "2025-11-17T23:33:40.377332", "level": "INFO", "message": "Service notification-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:33:40.624994", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:33:40.707029", "level": "INFO", "message": "10.16.147.254 - - [17/Nov/2025:23:33:40 ] \"GET /api/v1/orders HTTP/1.1\" 403 793 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:33:41.011485", "level": "INFO", "message": "169.239.147.197 - - [17/Nov/2025:23:33:41 ] \"DELETE /health HTTP/1.1\" 200 210 \"-\" \"curl/7.x\" 276ms"}
+{"timestamp": "2025-11-17T23:33:41.418770", "level": "INFO", "message": "Produced message to orders partition 10 offset 485052"}
+{"timestamp": "2025-11-17T23:33:41.508297", "level": "INFO", "message": "Partition reassignment for topic payments - leaders moved"}
+{"timestamp": "2025-11-17T23:33:41.682519", "level": "INFO", "message": "220.204.28.136 - - [17/Nov/2025:23:33:41 ] \"DELETE /metrics HTTP/1.1\" 404 3198 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:33:41.783379", "level": "INFO", "message": "INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed')"}
+{"timestamp": "2025-11-17T23:33:41.970909", "level": "INFO", "message": "Feature flag 'new-checkout' evaluated to True for user frank@example.com"}
+{"timestamp": "2025-11-17T23:33:48.924897", "level": "INFO", "message": "158.39.73.162 - - [17/Nov/2025:23:33:48 ] \"PATCH /api/v1/orders HTTP/1.1\" 403 1631 \"-\" \"curl/7.x\" 150ms"}
+{"timestamp": "2025-11-17T23:33:56.799769", "level": "INFO", "message": "193.65.203.165 - - [17/Nov/2025:23:33:56 ] \"PATCH /api/v1/users HTTP/1.1\" 504 137 \"-\" \"curl/7.x\" 71ms"}
+{"timestamp": "2025-11-17T23:34:08.578508", "level": "INFO", "message": "Service billing-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:34:15.203184", "level": "ERROR", "message": "DatabaseTimeoutError in payment-service: query took 2030ms"}
+{"timestamp": "2025-11-17T23:34:18.807006", "level": "ERROR", "message": "DatabaseTimeoutError in order-service: query took 2006ms"}
+{"timestamp": "2025-11-17T23:34:30.733285", "level": "INFO", "message": "User emily@example.com created successfully"}
+{"timestamp": "2025-11-17T23:34:36.474651", "level": "INFO", "message": "Cache miss for key cart_908"}
+{"timestamp": "2025-11-17T23:34:48.453885", "level": "INFO", "message": "Cache miss for key cache_609"}
+{"timestamp": "2025-11-17T23:34:55.141129", "level": "INFO", "message": "Cache miss for key cache_295"}
+{"timestamp": "2025-11-17T23:34:59.303536", "level": "INFO", "message": "167.50.57.128 - - [17/Nov/2025:23:34:59 ] \"DELETE /api/v1/payments HTTP/1.1\" 400 1724 \"-\" \"curl/7.x\" 81ms"}
+{"timestamp": "2025-11-17T23:35:10.157477", "level": "INFO", "message": "Cache miss for key cache_237"}
+{"timestamp": "2025-11-17T23:35:18.463851", "level": "INFO", "message": "87.217.181.192 - - [17/Nov/2025:23:35:18 ] \"PATCH /metrics HTTP/1.1\" 200 4349 \"-\" \"curl/7.x\" 56ms"}
+{"timestamp": "2025-11-17T23:35:24.476714", "level": "INFO", "message": "User bob@example.com created successfully"}
+{"timestamp": "2025-11-17T23:35:33.682359", "level": "INFO", "message": "30.118.46.25 - - [17/Nov/2025:23:35:33 ] \"PATCH /health HTTP/1.1\" 302 2013 \"-\" \"curl/7.x\" 126ms"}
+{"timestamp": "2025-11-17T23:35:38.371266", "level": "INFO", "message": "200.110.214.9 - - [17/Nov/2025:23:35:38 ] \"POST /metrics HTTP/1.1\" 403 2002 \"-\" \"curl/7.x\" 166ms"}
+{"timestamp": "2025-11-17T23:35:47.254012", "level": "INFO", "message": "243.176.114.234 - - [17/Nov/2025:23:35:47 ] \"PUT /api/v1/auth/login HTTP/1.1\" 302 3792 \"-\" \"curl/7.x\" 98ms"}
+{"timestamp": "2025-11-17T23:35:57.632771", "level": "INFO", "message": "Background job completed, job_id=3665"}
+{"timestamp": "2025-11-17T23:36:09.321296", "level": "INFO", "message": "103.38.66.163 - - [17/Nov/2025:23:36:09 ] \"PATCH /api/v1/users HTTP/1.1\" 302 2192 \"-\" \"curl/7.x\" 429ms"}
+{"timestamp": "2025-11-17T23:36:20.086934", "level": "INFO", "message": "Cache miss for key session_158"}
+{"timestamp": "2025-11-17T23:36:31.485027", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user diana@example.com"}
+{"timestamp": "2025-11-17T23:36:35.793673", "level": "INFO", "message": "131.131.202.251 - - [17/Nov/2025:23:36:35 ] \"PUT /metrics HTTP/1.1\" 400 2068 \"-\" \"curl/7.x\" 270ms"}
+{"timestamp": "2025-11-17T23:36:41.339184", "level": "INFO", "message": "135.117.234.90 - - [17/Nov/2025:23:36:41 ] \"DELETE /api/v1/auth/login HTTP/1.1\" 302 1798 \"-\" \"curl/7.x\" 399ms"}
+{"timestamp": "2025-11-17T23:36:47.075809", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:36:47.185593", "level": "WARN", "message": "Slow query detected: INSERT INTO payments (user_id, amount, status) VALUES (1234, 49.99, 'processed') took 645ms"}
+{"timestamp": "2025-11-17T23:36:47.346132", "level": "INFO", "message": "14.78.11.64 - - [17/Nov/2025:23:36:47 ] \"POST /api/v1/payments HTTP/1.1\" 201 1466 \"-\" \"curl/7.x\" 425ms"}
+{"timestamp": "2025-11-17T23:36:47.467041", "level": "INFO", "message": "138.189.35.112 - - [17/Nov/2025:23:36:47 ] \"GET /health HTTP/1.1\" 403 1966 \"-\" \"curl/7.x\" 206ms"}
+{"timestamp": "2025-11-17T23:36:47.505591", "level": "INFO", "message": "Background job completed, job_id=2559"}
+{"timestamp": "2025-11-17T23:36:47.546987", "level": "INFO", "message": "Feature flag evaluation: discount-experiment -> OFF for user bob@example.com"}
+{"timestamp": "2025-11-17T23:36:47.582431", "level": "INFO", "message": "Cache miss for key cart_393"}
+{"timestamp": "2025-11-17T23:36:47.790133", "level": "INFO", "message": "Pod billing-service-pod-5415 evicted from node node-7"}
+{"timestamp": "2025-11-17T23:36:47.836116", "level": "INFO", "message": "32.116.35.220 - - [17/Nov/2025:23:36:47 ] \"DELETE /api/v1/payments HTTP/1.1\" 302 1424 \"-\" \"curl/7.x\" 318ms"}
+{"timestamp": "2025-11-17T23:36:48.028070", "level": "INFO", "message": "SELECT id, name FROM users WHERE email='alice@example.com' LIMIT 1"}
+{"timestamp": "2025-11-17T23:36:48.407567", "level": "INFO", "message": "65.21.48.84 - - [17/Nov/2025:23:36:48 ] \"PUT /api/v1/orders HTTP/1.1\" 400 4095 \"-\" \"curl/7.x\" 53ms"}
+{"timestamp": "2025-11-17T23:36:48.625241", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:36:48.992358", "level": "INFO", "message": "Redis connection refused on node redis-2"}
+{"timestamp": "2025-11-17T23:36:49.060282", "level": "INFO", "message": "125.152.180.203 - - [17/Nov/2025:23:36:49 ] \"PATCH /health HTTP/1.1\" 409 4404 \"-\" \"curl/7.x\" 187ms"}
+{"timestamp": "2025-11-17T23:36:49.257919", "level": "INFO", "message": "120.81.97.53 - - [17/Nov/2025:23:36:49 ] \"DELETE /api/v1/users HTTP/1.1\" 200 3345 \"-\" \"curl/7.x\" 62ms"}
+{"timestamp": "2025-11-17T23:36:49.552812", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:36:49.761248", "level": "INFO", "message": "UPDATE orders SET status='shipped' WHERE id=5678"}
+{"timestamp": "2025-11-17T23:36:50.016646", "level": "INFO", "message": "Service auth-service heartbeat OK"}
+{"timestamp": "2025-11-17T23:36:50.436827", "level": "INFO", "message": "Cache miss for key session_774"}
+{"timestamp": "2025-11-17T23:36:50.844232", "level": "INFO", "message": "224.215.140.18 - - [17/Nov/2025:23:36:50 ] \"POST /api/v1/payments HTTP/1.1\" 302 1847 \"-\" \"curl/7.x\" 72ms"}
+{"timestamp": "2025-11-17T23:36:51.240804", "level": "INFO", "message": "Feature flag evaluation: new-checkout -> OFF for user emily@example.com"}
+{"timestamp": "2025-11-17T23:36:51.670787", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:36:51.832931", "level": "INFO", "message": "Produced message to payments partition 7 offset 781387"}
+{"timestamp": "2025-11-17T23:36:52.123914", "level": "INFO", "message": "Feature flag evaluation: search-v2 -> OFF for user alice@example.com"}
+{"timestamp": "2025-11-17T23:36:52.462657", "level": "INFO", "message": "Cache miss for key session_845"}
+{"timestamp": "2025-11-17T23:36:52.843238", "level": "INFO", "message": "178.248.51.28 - - [17/Nov/2025:23:36:52 ] \"PUT /health HTTP/1.1\" 302 2059 \"-\" \"curl/7.x\" 73ms"}
+{"timestamp": "2025-11-17T23:36:53.071231", "level": "INFO", "message": "37.128.243.103 - - [17/Nov/2025:23:36:53 ] \"PUT /api/v1/orders HTTP/1.1\" 403 347 \"-\" \"curl/7.x\" 212ms"}
+{"timestamp": "2025-11-17T23:36:53.246142", "level": "INFO", "message": "Started container user-service-pod-4664 in namespace default"}
+{"timestamp": "2025-11-17T23:36:53.651635", "level": "INFO", "message": "110.121.59.112 - - [17/Nov/2025:23:36:53 ] \"GET /api/v1/orders HTTP/1.1\" 400 3602 \"-\" \"curl/7.x\" 157ms"}
+{"timestamp": "2025-11-17T23:36:53.835846", "level": "INFO", "message": "Background job completed, job_id=1510"}
+{"timestamp": "2025-11-17T23:36:54.085647", "level": "INFO", "message": "Pod analytics-engine-pod-9309 evicted from node node-3"}
+{"timestamp": "2025-11-17T23:36:54.531244", "level": "WARN", "message": "Retrying connection to redis cluster for key session_6881"}
+{"timestamp": "2025-11-17T23:36:54.590055", "level": "INFO", "message": "CI job 4974 - stage test - SUCCESS"}
+{"timestamp": "2025-11-17T23:36:54.986649", "level": "INFO", "message": "Feature flag evaluation: new-checkout -> OFF for user alice@example.com"}
+{"timestamp": "2025-11-17T23:36:55.262273", "level": "INFO", "message": "OOMKilled: Pod notification-service-pod-3101 in namespace monitoring was killed due to memory"}
+{"timestamp": "2025-11-17T23:36:55.374934", "level": "INFO", "message": "Produced message to audit-log partition 4 offset 407222"}
+{"timestamp": "2025-11-17T23:36:55.447659", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:36:55.756128", "level": "INFO", "message": "155.22.203.139 - - [17/Nov/2025:23:36:55 ] \"POST /api/v1/users HTTP/1.1\" 302 1784 \"-\" \"curl/7.x\" 15ms"}
+{"timestamp": "2025-11-17T23:36:56.090116", "level": "INFO", "message": "Pod inventory-service-pod-5430 evicted from node node-3"}
+{"timestamp": "2025-11-17T23:36:56.464439", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user ivy@example.com"}
+{"timestamp": "2025-11-17T23:36:56.898740", "level": "INFO", "message": "SELECT * FROM orders WHERE created_at > NOW() - interval '1 day' ORDER BY created_at DESC LIMIT 100"}
+{"timestamp": "2025-11-17T23:36:56.964878", "level": "INFO", "message": "44.209.225.176 - - [17/Nov/2025:23:36:56 ] \"PATCH /api/v1/payments HTTP/1.1\" 302 742 \"-\" \"curl/7.x\" 75ms"}
+{"timestamp": "2025-11-17T23:36:57.146184", "level": "INFO", "message": "216.11.249.181 - - [17/Nov/2025:23:36:57 ] \"PUT /api/v1/payments HTTP/1.1\" 503 2245 \"-\" \"curl/7.x\" 5358ms"}
+{"timestamp": "2025-11-17T23:36:58.594421", "level": "WARN", "message": "Retrying connection to redis cluster for key session_6504"}
+{"timestamp": "2025-11-17T23:37:02.965180", "level": "INFO", "message": "71.30.138.128 - - [17/Nov/2025:23:37:02 ] \"PUT /api/v1/orders HTTP/1.1\" 200 3106 \"-\" \"curl/7.x\" 5ms"}
+{"timestamp": "2025-11-17T23:37:08.040504", "level": "INFO", "message": "103.68.76.189 - - [17/Nov/2025:23:37:08 ] \"DELETE /health HTTP/1.1\" 302 1927 \"-\" \"curl/7.x\" 179ms"}
+{"timestamp": "2025-11-17T23:37:16.284747", "level": "INFO", "message": "64.106.97.250 - - [17/Nov/2025:23:37:16 ] \"DELETE /api/v1/auth/login HTTP/1.1\" 200 1643 \"-\" \"curl/7.x\" 106ms"}
+{"timestamp": "2025-11-17T23:37:26.278979", "level": "WARN", "message": "Retrying connection to redis cluster for key session_8463"}
+{"timestamp": "2025-11-17T23:37:30.598814", "level": "INFO", "message": "155.108.123.141 - - [17/Nov/2025:23:37:30 ] \"DELETE /metrics HTTP/1.1\" 302 3010 \"-\" \"curl/7.x\" 338ms"}
+{"timestamp": "2025-11-17T23:37:39.622299", "level": "INFO", "message": "132.138.86.95 - - [17/Nov/2025:23:37:39 ] \"PUT /api/v1/users HTTP/1.1\" 302 2849 \"-\" \"curl/7.x\" 364ms"}
+{"timestamp": "2025-11-17T23:37:50.765633", "level": "ERROR", "message": "500 Internal Server Error in billing-service when calling /process"}
+{"timestamp": "2025-11-17T23:37:57.984281", "level": "INFO", "message": "157.120.220.59 - - [17/Nov/2025:23:37:57 ] \"PUT /api/v1/auth/login HTTP/1.1\" 200 1642 \"-\" \"curl/7.x\" 508ms"}
+{"timestamp": "2025-11-17T23:38:09.965771", "level": "WARN", "message": "High memory usage: 76% on payment-service"}
+{"timestamp": "2025-11-17T23:38:18.192300", "level": "INFO", "message": "244.163.137.115 - - [17/Nov/2025:23:38:18 ] \"POST /api/v1/auth/login HTTP/1.1\" 302 2391 \"-\" \"curl/7.x\" 119ms"}
+{"timestamp": "2025-11-17T23:38:24.987448", "level": "INFO", "message": "80.189.144.146 - - [17/Nov/2025:23:38:24 ] \"PATCH /api/v1/orders HTTP/1.1\" 302 4026 \"-\" \"curl/7.x\" 240ms"}
+{"timestamp": "2025-11-17T23:38:30.042447", "level": "INFO", "message": "User harry@example.com created successfully"}
+{"timestamp": "2025-11-17T23:38:35.040597", "level": "INFO", "message": "Feature flag 'search-v2' evaluated to True for user frank@example.com"}
+{"timestamp": "2025-11-17T23:38:42.649564", "level": "INFO", "message": "User jane.doe@example.com created successfully"}
+{"timestamp": "2025-11-17T23:38:46.759532", "level": "INFO", "message": "235.252.234.50 - - [17/Nov/2025:23:38:46 ] \"PUT /api/v1/users HTTP/1.1\" 302 4465 \"-\" \"curl/7.x\" 43ms"}
+{"timestamp": "2025-11-17T23:38:51.304944", "level": "INFO", "message": "165.102.206.152 - - [17/Nov/2025:23:38:51 ] \"GET /api/v1/orders HTTP/1.1\" 200 525 \"-\" \"curl/7.x\" 85ms"}
+{"timestamp": "2025-11-17T23:39:01.416195", "level": "INFO", "message": "Cache miss for key cart_528"}
+{"timestamp": "2025-11-17T23:39:10.948165", "level": "INFO", "message": "User bob@example.com created successfully"}
