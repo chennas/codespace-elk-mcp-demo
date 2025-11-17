@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  app:
+    build: ./app
+    container_name: demo_app
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./logs:/logs
+
+  filebeat:
+    image: elastic/filebeat:7.17.10
+    container_name: demo_filebeat
+    user: root
+    volumes:
+      - ./filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml
+      - ./logs:/logs
+    depends_on:
+      - app
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:7.17.10
+    container_name: demo_logstash
+    volumes:
+      - ./logstash/pipeline.conf:/usr/share/logstash/pipeline/logstash.conf
+    ports:
+      - "5044:5044"
+    depends_on:
+      - elasticsearch
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.10
+    container_name: demo_elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports:
+      - "9200:9200"
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.17.10
+    container_name: demo_kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+
+  mcp:
+    build: ./mcp
+    container_name: demo_mcp
+    ports:
+      - "8000:8000"
+    depends_on:
+      - elasticsearch
+
+networks:
+  default:
+    driver: bridge
