@@ -1,0 +1,10 @@
+{
+  "filter": "users starting with 'bob9'",
+  "time_range": "last 19 hours",
+  "total_failures": 3,
+  "unique_users": 2,
+  "users": {
+    "bob9": 2,
+    "bob9999": 1
+  }
+}

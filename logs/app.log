@@ -6,3 +6,8 @@
 {"timestamp": "2025-11-17T17:28:39.962779", "level": "ERROR", "message": "User bob9999 failed login"}
 {"timestamp": "2025-11-17T17:28:49.204178", "level": "ERROR", "message": "User bob0909 failed login"}
 {"timestamp": "2025-11-17T17:31:30.255690", "level": "INFO", "message": "User scott allen is created successfully"}
+{"timestamp": "2025-11-17T19:10:06.796684", "level": "ERROR", "message": "User allen  failed login"}
+{"timestamp": "2025-11-17T19:10:40.121175", "level": "info", "message": "User johnbrook login is success"}
+{"timestamp": "2025-11-17T19:12:41.255595", "level": "INFO", "message": "User samnalla created successfully"}
+{"timestamp": "2025-11-17T19:12:52.579851", "level": "INFO", "message": "User samantha created successfully"}
+{"timestamp": "2025-11-17T19:13:04.265803", "level": "INFO", "message": "User anupchandra created successfully"}

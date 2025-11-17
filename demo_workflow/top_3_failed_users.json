@@ -1,0 +1,22 @@
+{
+  "filter": "top 3 failed users",
+  "time_range": "last 19 hours",
+  "total_failures": 7,
+  "top_3_users": [
+    {
+      "rank": 1,
+      "username": "bob",
+      "failures": 3
+    },
+    {
+      "rank": 2,
+      "username": "bob9",
+      "failures": 2
+    },
+    {
+      "rank": 3,
+      "username": "bob9999",
+      "failures": 1
+    }
+  ]
+}
