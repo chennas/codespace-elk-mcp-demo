@@ -159,3 +159,71 @@ def ask_simplified(question: Question):
         return {"results": simplified_results}
     except Exception as e:
         return {"error": str(e)}
+
+# ======================
+# Global search endpoint (AI-agent + time-aware)
+# ======================
+@app.post("/globalsearch")
+def global_search_nlp(question: Question):
+    """
+    AI-agent-friendly global search.
+    Accepts natural language questions, parses them to ES queries,
+    supports partial/like match in 'message', and handles time ranges.
+    
+    Example questions:
+        - "Show all logs containing timeout errors in last 2 hours"
+        - "Find failed login attempts in last 1 day"
+    """
+    search_text = question.text.strip()
+    if not search_text:
+        return {
+            "error": "Please provide a natural language question in 'text'."
+        }
+
+    # Step 1: Default time range: last 1 hour
+    time_range = {"gte": "now-1h"}
+    match = re.search(r"last (\d+)\s*(hour|hours|day|days)", search_text, re.IGNORECASE)
+    if match:
+        num = int(match.group(1))
+        unit = match.group(2).lower()
+        if "hour" in unit:
+            time_range["gte"] = f"now-{num}h"
+        elif "day" in unit:
+            time_range["gte"] = f"now-{num}d"
+
+    # Step 2: Build Elasticsearch query
+    query = {
+        "query": {
+            "bool": {
+                "must": [
+                    {"range": {"timestamp": time_range}},
+                    {
+                        "query_string": {
+                            "fields": ["message"],
+                            "query": f"*{search_text}*",
+                            "analyze_wildcard": True
+                        }
+                    }
+                ]
+            }
+        },
+        "size": 50,  # default number of results
+        "sort": [{"timestamp": {"order": "desc"}}]
+    }
+
+    # Step 3: Execute search
+    try:
+        res = es.search(index="app-logs-*", body=query)
+        results = []
+        for hit in res["hits"]["hits"]:
+            src = hit["_source"]
+            results.append({
+                "timestamp": src.get("timestamp"),
+                "app": src.get("app"),
+                "level": src.get("level"),
+                "message": src.get("message")
+            })
+        return {"results": results, "count": len(results)}
+
+    except Exception as e:
+        return {"error": str(e)}
